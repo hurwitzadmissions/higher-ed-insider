@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Higher Ed Insider — Issue 26-12 | Dr. Nathan Hurwitz</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #1B2A4A;
+    --navy-dark: #0E1730;
+    --navy-mid: #243460;
+    --gold: #B8860B;
+    --gold-light: #D4AF37;
+    --gold-pale: #F0D782;
+    --cream: #FAF7F0;
+    --off-white: #F5F2EB;
+    --text: #2C2C2C;
+    --text-light: #555555;
+    --border: #DDD8CC;
+    --rule: #C8B870;
+  }
+
+  html { font-size: 16px; }
+
+  body {
+    font-family: 'Source Serif 4', Georgia, serif;
+    background-color: #EEEBE3;
+    color: var(--text);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── WRAPPER ── */
+  .wrapper {
+    max-width: 760px;
+    margin: 40px auto;
+    background: var(--cream);
+    box-shadow: 0 4px 40px rgba(0,0,0,0.18);
+  }
+
+  /* ── MASTHEAD ── */
+  .masthead {
+    background: var(--navy-dark);
+    padding: 0;
+    border-bottom: 6px solid var(--gold-light);
+  }
+
+  .masthead-top {
+    background: var(--navy);
+    padding: 18px 48px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(212,175,55,0.25);
+  }
+
+  .masthead-top .site {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    color: var(--gold-pale);
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .masthead-top .issue-meta {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: rgba(212,175,55,0.6);
+  }
+
+  .masthead-main {
+    padding: 44px 48px 36px;
+    text-align: center;
+    position: relative;
+  }
+
+  .masthead-main::before,
+  .masthead-main::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 1px;
+    background: var(--gold-light);
+    margin: 0 auto;
+  }
+  .masthead-main::before { margin-bottom: 20px; }
+  .masthead-main::after  { margin-top: 20px; }
+
+  .pub-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: 0.02em;
+    line-height: 1.1;
+  }
+
+  .pub-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold-pale);
+    margin-top: 10px;
+  }
+
+  .issue-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 18px;
+    flex-wrap: wrap;
+  }
+
+  .issue-block span {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(212,175,55,0.75);
+  }
+
+  .issue-block .dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: var(--gold);
+    display: inline-block;
+    opacity: 0.5;
+  }
+
+  /* ── INTRO BAND ── */
+  .intro-band {
+    background: var(--navy-mid);
+    padding: 20px 48px;
+    border-bottom: 3px solid var(--gold);
+  }
+
+  .intro-band p {
+    font-family: 'Source Serif 4', serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    color: rgba(240,215,130,0.85);
+    line-height: 1.65;
+    text-align: center;
+  }
+
+  /* ── BODY ── */
+  .body-wrap {
+    padding: 48px 48px 0;
+  }
+
+  /* ── STORY ── */
+  .story {
+    margin-bottom: 42px;
+    padding-bottom: 42px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .story:last-of-type {
+    border-bottom: none;
+  }
+
+  .story-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 14px;
+  }
+
+  .story-number {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    background: var(--navy);
+    color: var(--gold-light);
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+  }
+
+  .story-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 21px;
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.25;
+    flex: 1;
+  }
+
+  .story-body {
+    font-family: 'Source Serif 4', serif;
+    font-size: 15.5px;
+    font-weight: 300;
+    color: var(--text);
+    line-height: 1.75;
+    margin-bottom: 14px;
+  }
+
+  .story-body p + p {
+    margin-top: 12px;
+  }
+
+  .matters-block {
+    background: var(--off-white);
+    border-left: 3px solid var(--gold);
+    padding: 14px 18px;
+    margin: 16px 0;
+  }
+
+  .matters-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 6px;
+  }
+
+  .matters-text {
+    font-family: 'Source Serif 4', serif;
+    font-size: 14.5px;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--navy);
+    line-height: 1.65;
+  }
+
+  .sources {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-light);
+    margin-top: 14px;
+  }
+
+  .sources a {
+    color: var(--navy);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+    transition: color 0.15s, border-color 0.15s;
+  }
+
+  .sources a:hover {
+    color: var(--gold);
+    border-color: var(--gold);
+  }
+
+  /* ── SECTION RULE ── */
+  .section-rule {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 0 0 36px;
+  }
+
+  .section-rule span {
+    font-family: 'Inter', sans-serif;
+    font-size: 9.5px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    white-space: nowrap;
+  }
+
+  .section-rule::before,
+  .section-rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--rule);
+    opacity: 0.5;
+  }
+
+  /* ── EDITOR'S NOTE ── */
+  .editors-note {
+    background: var(--navy);
+    margin: 0 -48px;
+    padding: 40px 48px;
+  }
+
+  .editors-note-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 9.5px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .editors-note-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: rgba(212,175,55,0.3);
+  }
+
+  .editors-note p {
+    font-family: 'Source Serif 4', serif;
+    font-size: 15.5px;
+    font-weight: 300;
+    font-style: italic;
+    color: rgba(255,255,255,0.88);
+    line-height: 1.8;
+    margin-bottom: 12px;
+  }
+
+  .editors-note p:last-child {
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--gold-pale);
+    font-size: 14px;
+    letter-spacing: 0.01em;
+  }
+
+  .editors-sig {
+    margin-top: 22px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(212,175,55,0.2);
+  }
+
+  .editors-sig p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(240,215,130,0.7);
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+
+  .editors-sig a {
+    color: var(--gold-pale);
+    text-decoration: none;
+  }
+
+  .editors-sig a:hover {
+    text-decoration: underline;
+  }
+
+  /* ── FOOTER ── */
+  .footer {
+    background: var(--navy-dark);
+    padding: 30px 48px;
+    border-top: 3px solid var(--gold);
+  }
+
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .footer-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: 0.02em;
+  }
+
+  .footer-brand span {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: var(--gold-pale);
+    margin-top: 3px;
+    text-transform: uppercase;
+  }
+
+  .footer-contact {
+    text-align: right;
+  }
+
+  .footer-contact p {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(240,215,130,0.65);
+    line-height: 1.7;
+  }
+
+  .footer-contact a {
+    color: var(--gold-pale);
+    text-decoration: none;
+  }
+
+  .footer-contact a:hover { text-decoration: underline; }
+
+  .footer-bottom {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(212,175,55,0.15);
+    text-align: center;
+  }
+
+  .footer-bottom p {
+    font-family: 'Inter', sans-serif;
+    font-size: 10.5px;
+    color: rgba(240,215,130,0.4);
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+  }
+
+  /* ── INDEX BAR ── */
+  .index-bar {
+    background: var(--off-white);
+    border: 1px solid var(--border);
+    margin-bottom: 44px;
+    padding: 22px 24px;
+  }
+
+  .index-bar-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 9.5px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 14px;
+  }
+
+  .index-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 20px;
+  }
+
+  .index-item {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--navy);
+    line-height: 1.4;
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+  }
+
+  .index-item .n {
+    font-weight: 600;
+    color: var(--gold);
+    flex-shrink: 0;
+    font-size: 11px;
+  }
+
+  /* ── PRINT ── */
+  @media print {
+    body { background: white; }
+    .wrapper { box-shadow: none; margin: 0; max-width: 100%; }
+  }
+
+  @media (max-width: 600px) {
+    .masthead-top, .masthead-main, .intro-band, .body-wrap { padding-left: 24px; padding-right: 24px; }
+    .pub-name { font-size: 30px; }
+    .editors-note, .footer { padding-left: 24px; padding-right: 24px; }
+    .editors-note { margin: 0 -24px; }
+    .index-grid { grid-template-columns: 1fr; }
+    .footer-inner { flex-direction: column; text-align: center; }
+    .footer-contact { text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+
+  <!-- MASTHEAD -->
+  <header class="masthead">
+    <div class="masthead-top">
+      <a href="https://www.hurwitzadmissions.com" class="site">hurwitzadmissions.com</a>
+      <span class="issue-meta">Issue 26-12 &nbsp;·&nbsp; Week of March 19, 2026</span>
+    </div>
+    <div class="masthead-main">
+      <div class="pub-name">Higher Ed Insider</div>
+      <div class="pub-subtitle">U.S. Higher Education Weekly Index</div>
+      <div class="issue-block">
+        <span>Dr. Nathan Hurwitz</span>
+        <span class="dot"></span>
+        <span>College Admissions Consultant</span>
+        <span class="dot"></span>
+        <span>Tenured Professor</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- INTRO -->
+  <div class="intro-band">
+    <p>Higher education news moves quickly — and for families planning for college, it can be difficult to tell which headlines actually matter. Each week, the <em>Higher Ed Insider</em> curates the eight to ten topics receiving the most national attention, pairing clear summaries with direct links to key articles. This index is designed to help families understand what is changing, why it matters, and how broader trends may affect their student's path to college.</p>
+  </div>
+
+  <!-- BODY -->
+  <div class="body-wrap">
+
+    <div style="height:40px;"></div>
+
+    <!-- INDEX -->
+    <div class="index-bar">
+      <div class="index-bar-label">This Week's Topics</div>
+      <div class="index-grid">
+        <div class="index-item"><span class="n">1.</span>Federal Court Blocks Admissions Data Mandate</div>
+        <div class="index-item"><span class="n">2.</span>NIH Grant Funding 74% Below Historical Averages</div>
+        <div class="index-item"><span class="n">3.</span>International Enrollment Down 17%; Visas Down 36%</div>
+        <div class="index-item"><span class="n">4.</span>Black Students Are Fastest-Growing Common App Group</div>
+        <div class="index-item"><span class="n">5.</span>ED Warns Two Accreditors Over DEI Standards</div>
+        <div class="index-item"><span class="n">6.</span>Department of Education Continues Structural Contraction</div>
+        <div class="index-item"><span class="n">7.</span>Student Mental Health Remains Presidents' Top Concern</div>
+        <div class="index-item"><span class="n">8.</span>Iowa Bills Would Reshape Public University Operations</div>
+        <div class="index-item"><span class="n">9.</span>Ohio State Names President From Within</div>
+      </div>
+    </div>
+
+    <div class="section-rule"><span>Stories</span></div>
+
+    <!-- STORY 1 -->
+    <div class="story">
+      <div class="story-header">
+        <div class="story-number">1</div>
+        <h2 class="story-title">Federal Court Blocks Admissions Data Mandate — For Now</h2>
+      </div>
+      <div class="story-body">
+        <p>The week's biggest story: a coalition of 17 state attorneys general — led by Massachusetts and including New York, California, Illinois, and others — filed suit in federal court in Boston seeking to block a sweeping Trump administration mandate requiring colleges to submit seven years of detailed admissions data, broken down by race, gender, test scores, GPA, family income, and financial aid. The mandate, known as the Admissions and Consumer Transparency Supplement (ACTS), was added to the longstanding federal IPEDS reporting system and required initial compliance by March 18. A federal judge granted a temporary restraining order blocking enforcement while the case proceeds.</p>
+        <p>The administration framed the data collection as a post-affirmative action compliance tool, following the Supreme Court's 2023 ruling ending race-conscious admissions. The states argue the mandate was rushed through without proper rulemaking, imposes impossible burdens on institutions, and threatens student privacy. Institutions that fail to comply face potential fines exceeding $71,000 per violation and risk losing federal funding.</p>
+      </div>
+      <div class="matters-block">
+        <div class="matters-label">Why it matters for your family</div>
+        <div class="matters-text">This legal battle will define how much transparency — and how much federal oversight — surrounds selective college admissions in the coming years. The outcome will affect how colleges document and discuss their admissions processes, and may increase pressure on institutions to further deprioritize holistic review in favor of quantifiable metrics.</div>
+      </div>
+      <div class="sources">→ <a href="https://www.insidehighered.com" target="_blank">Inside Higher Ed</a> &nbsp;·&nbsp; <a href="https://www.highereddive.com" target="_blank">Higher Ed Dive</a> &nbsp;·&nbsp; <a href="https://www.mcguirewoods.com" target="_blank">McGuireWoods Legal Alert</a> &nbsp;·&nbsp; <a href="https://www.wbur.org" target="_blank">WBUR</a></div>
+    </div>
+
+    <!-- STORY 2 -->
+    <div class="story">
+      <div class="story-header">
+        <div class="story-number">2</div>
+        <h2 class="story-title">NIH Grant Funding Is 74% Below Historical Averages — With No Recovery in Sight</h2>
+      </div>
+      <div class="story-body">
+        <p>A new analysis published this week by Johns Hopkins researchers found that as of March 3, the NIH had issued 74% fewer competitive new grant awards than the average for the same period over the prior four fiscal years. A separate nationwide survey of nearly 1,000 NIH-funded researchers by STAT News — published today — describes labs closing, junior faculty losing positions, and early-career scientists abandoning research careers entirely. One researcher described the situation as "the Titanic hitting the iceberg": the music is still playing, the ship is sinking.</p>
+        <p>Congress has largely rejected the administration's proposed 40% cut to NIH's overall budget, and a federal court has blocked the attempted cap on research overhead costs. But grant award rates remain far below normal, and the human cost is becoming visible: layoffs, paused clinical trials, and a generation of young scientists being driven out of the field. The proposed FY 2026 budget would reduce NIH support to inflation-adjusted levels not seen in over 25 years.</p>
+      </div>
+      <div class="matters-block">
+        <div class="matters-label">Why it matters for your family</div>
+        <div class="matters-text">Students targeting STEM fields at research universities should understand that the federal science funding environment is in genuine distress. Graduate program capacity, research mentorship opportunities, and the academic job market in the sciences are all contracting. This is a significant factor in college and graduate school planning for students interested in biomedical research, public health, and related fields.</div>
+      </div>
+      <div class="sources">→ <a href="https://www.statnews.com" target="_blank">STAT News</a> &nbsp;·&nbsp; <a href="https://www.nature.com" target="_blank">Nature</a> &nbsp;·&nbsp; <a href="https://www.usnews.com" target="_blank">U.S. News &amp; World Report</a></div>
+    </div>
+
+    <!-- STORY 3 -->
+    <div class="story">
+      <div class="story-header">
+        <div class="story-number">3</div>
+        <h2 class="story-title">International Student Enrollment Down 17% — Visa Issuances Down 36%</h2>
+      </div>
+      <div class="story-body">
+        <p>New data confirmed this week that new international student enrollment at U.S. colleges fell 17% in fall 2025 compared to the prior year — and a revised analysis shows that student visa issuances actually dropped by 36%, worse than earlier estimates. The decline is attributed to visa processing suspensions, travel bans affecting nearly 20 countries, expanded social media vetting requirements, and a climate of uncertainty for international students. SEVIS record terminations — affecting students' legal status without warning — have created persistent anxiety on campuses nationwide.</p>
+        <p>The financial stakes are significant. International students contribute an estimated $44 billion annually to the U.S. economy. NAFSA projects that a sustained enrollment decline could cost universities $7 billion in revenue and eliminate 60,000 jobs. Some institutions, including DePaul University in Chicago, have already initiated budget cuts and layoffs in response. Roughly 40% of Ph.D. students in STEM fields are foreign-born, a group that drives a substantial portion of U.S. research innovation.</p>
+      </div>
+      <div class="matters-block">
+        <div class="matters-label">Why it matters for your family</div>
+        <div class="matters-text">The decline in international enrollment is already affecting graduate program composition, research team capacity, and campus culture at many universities. Institutions that relied heavily on international tuition revenue are tightening budgets, which can affect financial aid availability for domestic students and the resources available for campus services.</div>
+      </div>
+      <div class="sources">→ <a href="https://edsource.org" target="_blank">EdSource</a> &nbsp;·&nbsp; <a href="https://www.highereddive.com" target="_blank">Higher Ed Dive</a> &nbsp;·&nbsp; <a href="https://www.brookings.edu" target="_blank">Brookings Institution</a> &nbsp;·&nbsp; <a href="https://www.insidehighered.com" target="_blank">Inside Higher Ed</a></div>
+    </div>
+
+    <!-- STORY 4 -->
+    <div class="story">
+      <div class="story-header">
+        <div class="story-number">4</div>
+        <h2 class="story-title">Common App Reports Black Students Are Fastest-Growing Applicant Group</h2>
+      </div>
+      <div class="story-body">
+        <p>A mid-season report from Common App released this week found that first-year applicants from underrepresented racial and ethnic minority groups grew 5% compared to the same point in the 2024-25 cycle. Black and African American applicants grew at the fastest rate — up 8% year over year — continuing a trend that has persisted through nearly three full admissions cycles following the Supreme Court's 2023 affirmative action ruling. First-generation applicants were up 7%, and applicants from below-median income ZIP codes grew 8%.</p>
+        <p>Common App researchers noted "no meaningful deviations from pre-existing trends" in the racial makeup of the applicant pool since the ruling. However, separate Urban Institute data reveals a divergence: while Black students are applying at increasing rates, the share of Black students being <em>admitted</em> at highly selective universities has declined — suggesting the ruling's effects are concentrated in the admissions decision stage, not the application stage.</p>
+      </div>
+      <div class="matters-block">
+        <div class="matters-label">Why it matters for your family</div>
+        <div class="matters-text">Application volume is increasing broadly, especially to selective institutions. The pool of competitive applicants continues to grow, making positioning and narrative strategy more important — not less — regardless of a student's background. The divergence between application rates and admission rates at elite universities reinforces that applying is only the first step; the quality and clarity of the application itself is what determines outcomes.</div>
+      </div>
+      <div class="sources">→ <a href="https://www.commonapp.org" target="_blank">Common App</a> &nbsp;·&nbsp; <a href="https://www.highereddive.com" target="_blank">Higher Ed Dive</a> &nbsp;·&nbsp; <a href="https://www.urban.org" target="_blank">Urban Institute</a></div>
+    </div>
+
+    <!-- STORY 5 -->
+    <div class="story">
+      <div class="story-header">
+        <div class="story-number">5</div>
+        <h2 class="story-title">Department of Education Warns Two Major Accreditors Over DEI Standards</h2>
+      </div>
+      <div class="story-body">
+        <p>The Department of Education's Under Secretary Nicholas Kent sent formal letters this week to the Middle States Commission on Higher Education and the Commission on Accreditation in Physical Therapy Education, warning both that DEI-related provisions in their accreditation standards conflict with federal law. Both accreditors had their federal recognition renewed — but the letters signal that the administration intends to use the accreditation system as a lever for enforcing its anti-DEI agenda across the full range of higher education institutions.</p>
+        <p>Middle States is the regional accreditor for colleges and universities in the mid-Atlantic region, including Delaware, Maryland, New Jersey, New York, Pennsylvania, and Washington D.C. Its standards affect hundreds of institutions that families in the Northeast apply to every year.</p>
+      </div>
+      <div class="matters-block">
+        <div class="matters-label">Why it matters for your family</div>
+        <div class="matters-text">Accreditation is the mechanism by which federal financial aid — including Pell Grants and student loans — flows to colleges. When the federal government pressures accreditors, it shapes what institutions can and cannot require or encourage in their programs. Students applying to schools in the Middle States region should be aware that their institutions are operating in a period of regulatory pressure that may affect campus culture, programming, and leadership decisions.</div>
+      </div>
+      <div class="sources">→ <a href="https://www.insidehighered.com" target="_blank">Inside Higher Ed</a> &nbsp;·&nbsp; <a href="https://www.highereddive.com" target="_blank">Higher Ed Dive</a></div>
+    </div>
+
+    <!-- STORY 6 -->
+    <div class="story">
+      <div class="story-header">
+        <div class="story-number">6</div>
+        <h2 class="story-title">The Department of Education Continues Its Structural Contraction</h2>
+      </div>
+      <div class="story-body">
+        <p>Multiple stories this week tracked the ongoing reduction of the Department of Education. As of March 2026, the department has shrunk from approximately 4,100 employees to around 2,800 — a roughly 40% reduction — following a March 2025 executive order directing the agency to begin winding down non-essential functions. Several program areas have been transferred to other agencies: career and technical education to the Department of Labor, school safety grants to Health and Human Services, and foreign funding oversight to the Department of State.</p>
+        <p>New legislation proposed this week by the Department would also ease the pathway for struggling institutions to merge — a response to the accelerating financial pressures facing smaller and mid-size colleges. The Department of Labor is now soliciting applications for TRIO grant programs on Education's behalf — the latest example of core higher education functions migrating out of their traditional home agency.</p>
+      </div>
+      <div class="matters-block">
+        <div class="matters-label">Why it matters for your family</div>
+        <div class="matters-text">A smaller, less staffed Department of Education means slower processing of FAFSA applications, less consistent compliance oversight, and reduced support for students navigating the federal aid system. Families should plan for longer timelines and less predictability in federal financial aid administration in the 2026-27 cycle and beyond.</div>
+      </div>
+      <div class="sources">→ <a href="https://www.insidehighered.com" target="_blank">Inside Higher Ed</a> &nbsp;·&nbsp; <a href="https://www.acenet.edu" target="_blank">ACE Headlines</a> &nbsp;·&nbsp; <a href="https://www.academicjobs.com" target="_blank">AcademicJobs.com</a></div>
+    </div>
+
+    <!-- STORY 7 -->
+    <div class="story">
+      <div class="story-header">
+        <div class="story-number">7</div>
+        <h2 class="story-title">Student Mental Health Remains the Top Concern of College Presidents</h2>
+      </div>
+      <div class="story-body">
+        <p>A survey cited in multiple publications this week found that 70% of college presidents identify student mental health as their single greatest institutional challenge — yet only 35% of institutions have comprehensive mental health strategies that include prevention alongside treatment. Campus counseling center utilization has grown five times faster than enrollment over the past decade. Waitlists of several weeks remain common at many universities, and a new report this week described the gap between student demand and institutional capacity as widening, not narrowing, despite increased investment.</p>
+        <p>Colleges are increasingly moving toward peer-support models, stepped-care frameworks, and telehealth partnerships to extend capacity. The fundamental challenge: the U.S. Health Resources and Services Administration projects that demand for mental health professionals will exceed supply by 250,000 full-time providers — making hiring alone an insufficient solution for any institution.</p>
+      </div>
+      <div class="matters-block">
+        <div class="matters-label">Why it matters for your family</div>
+        <div class="matters-text">When evaluating colleges, mental health infrastructure deserves the same scrutiny as academic programs. Families should ask specific questions during campus visits: What is the average wait time for a first counseling appointment? What crisis resources are available after hours? What is the student-to-counselor ratio? These questions reveal institutional commitment more clearly than brochure language.</div>
+      </div>
+      <div class="sources">→ <a href="https://thehill.com" target="_blank">The Hill</a> &nbsp;·&nbsp; <a href="https://www.psychologytoday.com" target="_blank">Psychology Today</a> &nbsp;·&nbsp; <a href="https://www.acenet.edu" target="_blank">American Council on Education</a></div>
+    </div>
+
+    <!-- STORY 8 -->
+    <div class="story">
+      <div class="story-header">
+        <div class="story-number">8</div>
+        <h2 class="story-title">Iowa Advances Bills That Would Dramatically Reshape Public University Operations</h2>
+      </div>
+      <div class="story-body">
+        <p>Iowa's state legislature advanced multiple bills this week that would significantly restructure how the state's public universities can operate — including measures targeting curriculum oversight, faculty governance, and institutional hiring practices. The bills are part of a broader wave of state-level higher education legislation. Iowa joins Florida, Texas, Indiana, and Missouri in advancing legislation that expands legislative oversight of university operations and restricts certain academic programs and administrative practices.</p>
+        <p>A separate bill advancing in the Florida House would cap nonresident students at no more than 5% of first-time, full-time fall enrollment at certain public institutions — one of the most aggressive enrollment-restriction proposals yet seen at the state level.</p>
+      </div>
+      <div class="matters-block">
+        <div class="matters-label">Why it matters for your family</div>
+        <div class="matters-text">State-level legislation increasingly shapes what happens on public university campuses — from what programs exist to how faculty are hired and evaluated. Families considering public flagship universities in states with active legislative intervention in higher education should factor this climate into their college list decisions and campus visit conversations.</div>
+      </div>
+      <div class="sources">→ <a href="https://www.highereddive.com" target="_blank">Higher Ed Dive</a> &nbsp;·&nbsp; <a href="https://www.chronicle.com" target="_blank">Chronicle of Higher Education</a></div>
+    </div>
+
+    <!-- STORY 9 -->
+    <div class="story">
+      <div class="story-header">
+        <div class="story-number">9</div>
+        <h2 class="story-title">Ohio State Names Its Next President — From Within</h2>
+      </div>
+      <div class="story-body">
+        <p>Ohio State University's Board of Trustees this week unanimously appointed provost Walter "Ted" Carter, Jr. as the university's permanent president, bypassing an extended national search process following the abrupt resignation of his predecessor. The appointment reflects a growing trend among large public universities toward internal succession as a stability strategy during a turbulent period for higher education governance.</p>
+        <p>Ohio State is one of the nation's largest and most selective public universities, with significant merit scholarship offerings and a competitive honors college program.</p>
+      </div>
+      <div class="matters-block">
+        <div class="matters-label">Why it matters for your family</div>
+        <div class="matters-text">Presidential leadership at large public universities directly affects admissions philosophy, financial aid strategy, and institutional priorities. Families with students targeting Ohio State should monitor how the new administration approaches selectivity, merit scholarships, and its relationship with the Ohio state legislature in the months ahead.</div>
+      </div>
+      <div class="sources">→ <a href="https://apnews.com" target="_blank">Associated Press</a> &nbsp;·&nbsp; <a href="https://www.insidehighered.com" target="_blank">Inside Higher Ed</a></div>
+    </div>
+
+    <!-- EDITOR'S NOTE -->
+    <div class="editors-note">
+      <div class="editors-note-label">A Note From Dr. Hurwitz</div>
+      <p>This week's news is unusually consequential for families with college-bound students. Three threads in particular are worth holding together: the admissions data mandate lawsuit, the shift in admissions demographics following the end of affirmative action, and the continuing contraction of the Department of Education.</p>
+      <p>The admissions landscape is not becoming simpler — it is becoming more complex and more politically charged. The institutions your student is applying to are navigating legal, regulatory, and financial pressures that were not present three years ago. In that environment, the quality and clarity of a student's application matters more, not less. Strategy, narrative coherence, and thoughtful positioning are not luxuries — they are the appropriate response to a process that has grown genuinely more difficult to predict.</p>
+      <p>As always, I welcome your questions.</p>
+      <div class="editors-sig">
+        <p>— Dr. Nathan Hurwitz</p>
+        <p><a href="mailto:nathan@hurwitzadmissions.com">nathan@hurwitzadmissions.com</a> &nbsp;·&nbsp; (203) 613-9262 &nbsp;·&nbsp; <a href="https://www.hurwitzadmissions.com" target="_blank">hurwitzadmissions.com</a></p>
+      </div>
+    </div>
+
+    <div style="height:48px;"></div>
+
+  </div><!-- /body-wrap -->
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        Dr. Nathan Hurwitz
+        <span>College Admissions Consultant &nbsp;·&nbsp; Tenured Professor &nbsp;·&nbsp; Published Author</span>
+      </div>
+      <div class="footer-contact">
+        <p><a href="https://www.hurwitzadmissions.com" target="_blank">hurwitzadmissions.com</a></p>
+        <p><a href="mailto:nathan@hurwitzadmissions.com">nathan@hurwitzadmissions.com</a></p>
+        <p>(203) 613-9262</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>The <em>Higher Ed Insider</em> is published weekly during the academic year. &nbsp;·&nbsp; Issue 26-12 &nbsp;·&nbsp; Week of March 19, 2026<br>
+      To subscribe or share this edition, visit <a href="https://www.hurwitzadmissions.com/blog" target="_blank">hurwitzadmissions.com/blog</a> &nbsp;·&nbsp; Copyright © 2026 Hurwitz Consulting, LLC</p>
+    </div>
+  </footer>
+
+</div><!-- /wrapper -->
+
+</body>
+</html>
