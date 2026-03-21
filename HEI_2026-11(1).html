@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Higher Ed Insider — Edition 2026-11 · February 9–13, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>/* HEI Shared Stylesheet */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#0a1628;--navy-mid:#132040;--navy-light:#1e3058;
+  --gold:#c9963a;--gold-light:#e8b96a;--gold-pale:#f5e9d0;
+  --cream:#faf8f4;--cream-dark:#f2ede3;
+  --slate:#3a4a5c;--red:#c23b2a;--green:#2a7a4f;
+  --text-dark:#1a2332;--text-mid:#3d4f63;--text-muted:#6b7f94;
+  --border:#d8d0c4;
+  --serif:'Playfair Display',Georgia,serif;
+  --body:'Source Serif 4',Georgia,serif;
+  --sans:'Inter',system-ui,sans-serif
+}
+html{font-size:16px;scroll-behavior:smooth}
+body{background:#e8e2d8;color:var(--text-dark);font-family:var(--body);line-height:1.7}
+.page{max-width:940px;margin:32px auto;background:var(--cream);box-shadow:0 8px 48px rgba(0,0,0,.22)}
+.masthead-top{background:#fff;padding:10px 40px;border-bottom:3px solid var(--gold);display:flex;justify-content:space-between;align-items:center}
+.masthead-top span{font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--navy-mid)}
+.masthead-main{background:var(--navy);padding:28px 40px 24px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center}
+.brand-eyebrow{font-family:var(--sans);font-size:10px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+.brand-title{font-family:var(--serif);font-size:52px;font-weight:900;color:#fff;line-height:1}
+.brand-title em{color:var(--gold);font-style:italic}
+.brand-subtitle{font-family:var(--sans);font-size:12px;color:rgba(255,255,255,.6);letter-spacing:.07em;margin-top:8px}
+.editor-block{display:flex;flex-direction:column;align-items:center;gap:10px;min-width:130px}
+.editor-photo{width:84px;height:84px;border-radius:50%;border:3px solid var(--gold);overflow:hidden;background:var(--navy-light);display:flex;align-items:center;justify-content:center}
+.editor-initials{font-family:var(--serif);font-size:26px;font-weight:700;color:var(--gold)}
+.editor-name{font-family:var(--serif);font-size:13px;font-weight:700;color:#fff;line-height:1.3;text-align:center}
+.editor-title-line{font-family:var(--sans);font-size:9.5px;color:var(--gold-light);letter-spacing:.06em;text-transform:uppercase;margin-top:2px;text-align:center}
+.masthead-rule{height:3px;background:linear-gradient(90deg,var(--gold),var(--gold-light),var(--gold))}
+.masthead-bottom{background:var(--navy-mid);padding:8px 40px;display:flex;justify-content:space-between;align-items:center}
+.masthead-bottom span{font-family:var(--sans);font-size:11px;color:rgba(255,255,255,.5);letter-spacing:.04em}
+.masthead-bottom strong{color:var(--gold-light);font-weight:600}
+.contact-strip{background:var(--navy);padding:8px 40px;display:flex;justify-content:center;align-items:center;gap:28px;flex-wrap:wrap}
+.contact-strip a{font-family:var(--sans);font-size:12px;color:rgba(255,255,255,.6);text-decoration:none}
+.ci{color:var(--gold)}
+.stats-bar{background:var(--gold);padding:18px 40px;border-bottom:3px solid var(--navy)}
+.stats-bar-label{font-family:var(--sans);font-size:9px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:var(--navy);text-align:center;margin-bottom:12px;opacity:.7}
+.stats-row{display:flex;flex-wrap:wrap;justify-content:center}
+.stat-item{display:flex;flex-direction:column;align-items:center;padding:6px 18px;border-right:1px solid rgba(10,22,40,.2);text-align:center;min-width:120px}
+.stat-item:last-child{border-right:none}
+.stat-number{font-family:var(--serif);font-size:28px;font-weight:900;color:var(--navy);line-height:1}
+.stat-label{font-family:var(--sans);font-size:10px;font-weight:600;color:var(--navy-mid);letter-spacing:.04em;text-transform:uppercase;margin-top:3px;line-height:1.3}
+.topic-nav{background:var(--cream-dark);border-bottom:2px solid var(--navy);padding:10px 40px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.topic-nav-label{font-family:var(--sans);font-size:10px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--text-muted);margin-right:4px}
+.topic-nav a{font-family:var(--sans);font-size:11px;font-weight:500;color:var(--navy);text-decoration:none;padding:3px 9px;background:rgba(10,22,40,.07);border-radius:20px}
+.section-label{font-family:var(--sans);font-size:9px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-bottom:14px;display:flex;align-items:center;gap:10px}
+.section-label::after{content:'';flex:1;height:1px;background:rgba(201,150,58,.3)}
+.editors-letter{background:var(--navy);padding:40px;border-bottom:3px solid var(--gold)}
+.letter-inner{display:grid;grid-template-columns:72px 1fr;gap:24px;align-items:start}
+.letter-photo{width:72px;height:72px;border-radius:50%;border:2px solid var(--gold);overflow:hidden;background:var(--navy-light);display:flex;align-items:center;justify-content:center}
+.letter-photo-initials{font-family:var(--serif);font-size:20px;font-weight:700;color:var(--gold)}
+.letter-salutation{font-family:var(--serif);font-size:14px;font-weight:700;color:var(--gold-light);margin-bottom:12px;font-style:italic}
+.letter-text{font-family:var(--body);font-size:15px;color:rgba(255,255,255,.82);line-height:1.78}
+.letter-text p{margin-bottom:.85em}
+.letter-sig{font-family:var(--serif);font-size:16px;font-style:italic;color:var(--gold-light);margin-top:16px}
+.letter-sig-title{font-family:var(--sans);font-size:10px;font-weight:600;color:rgba(255,255,255,.45);letter-spacing:.1em;text-transform:uppercase;margin-top:3px}
+.overview-band{background:var(--navy-mid);padding:36px 40px;border-bottom:3px solid var(--gold)}
+.overview-headline{font-family:var(--serif);font-size:24px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:14px;font-style:italic}
+.overview-intro{font-family:var(--body);font-size:15px;color:rgba(255,255,255,.75);line-height:1.75;margin-bottom:24px}
+.hot-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.hot-topic{display:flex;align-items:flex-start;gap:12px;background:rgba(255,255,255,.06);border:1px solid rgba(201,150,58,.2);border-left:3px solid var(--gold);padding:11px 14px}
+.hot-num{font-family:var(--serif);font-size:22px;font-weight:900;color:var(--gold);line-height:1;min-width:28px}
+.hot-text{font-family:var(--sans);font-size:12px;font-weight:500;color:rgba(255,255,255,.88);line-height:1.4}
+.content-wrap{padding:0 40px}
+.article-grid{display:grid;grid-template-columns:1fr 280px;gap:32px;align-items:start}
+.topic-section{padding:40px 0;border-bottom:2px solid var(--border)}
+.topic-section:last-of-type{border-bottom:none}
+.topic-number-row{display:flex;align-items:center;gap:14px;margin-bottom:8px}
+.topic-num{font-family:var(--serif);font-size:12px;font-weight:700;color:var(--gold);background:var(--navy);padding:3px 10px}
+.topic-cat{font-family:var(--sans);font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--text-muted)}
+.topic-title{font-family:var(--serif);font-size:24px;font-weight:700;color:var(--text-dark);line-height:1.25;margin-bottom:6px}
+.topic-deck{font-family:var(--body);font-size:15.5px;font-weight:300;font-style:italic;color:var(--slate);line-height:1.6}
+.topic-rule{height:2px;background:var(--gold);width:50px;margin:14px 0}
+.topic-body{font-family:var(--body);font-size:15px;color:var(--text-mid);line-height:1.78}
+.topic-body p{margin-bottom:1em}
+.elite-spotlight{background:linear-gradient(135deg,#0a1628 80%,#132040);border:1px solid rgba(201,150,58,.4);border-left:4px solid var(--gold);padding:20px 22px;margin:22px 0;border-radius:3px}
+.spot-label{font-family:var(--sans);font-size:9px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+.spot-title{font-family:var(--serif);font-size:16px;font-weight:700;color:#fff;font-style:italic;margin-bottom:14px;line-height:1.35}
+.spot-items{display:flex;flex-direction:column;gap:8px;margin-bottom:12px}
+.spot-item{display:grid;grid-template-columns:170px 1fr;gap:12px;align-items:baseline}
+.spot-school{font-family:var(--sans);font-size:11px;font-weight:700;color:var(--gold-light)}
+.spot-detail{font-family:var(--body);font-size:13px;color:rgba(255,255,255,.75);line-height:1.5}
+.spot-note{font-family:var(--body);font-size:13px;color:rgba(255,255,255,.6);font-style:italic;border-top:1px solid rgba(201,150,58,.25);padding-top:10px;line-height:1.6}
+.take-box{background:var(--cream-dark);border-left:4px solid var(--navy);padding:18px 20px;margin:20px 0}
+.take-label{font-family:var(--sans);font-size:9px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:var(--navy);margin-bottom:8px}
+.take-text{font-family:var(--body);font-size:14px;color:var(--text-mid);line-height:1.7;font-style:italic}
+.pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
+.pros-card{background:#f0f8f3;border:1px solid #b8ddc8;border-top:3px solid var(--green);padding:14px 16px}
+.cons-card{background:#fdf5f4;border:1px solid #e8c8c4;border-top:3px solid var(--red);padding:14px 16px}
+.pc-label{font-family:var(--sans);font-size:9px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;margin-bottom:10px}
+.pros-card .pc-label{color:var(--green)}.cons-card .pc-label{color:var(--red)}
+.pc-list{list-style:none;padding:0}
+.pc-list li{font-family:var(--sans);font-size:12px;color:var(--text-mid);line-height:1.5;padding:4px 0 4px 16px;position:relative;border-bottom:1px solid rgba(0,0,0,.05)}
+.pc-list li:last-child{border-bottom:none}
+.pros-card .pc-list li::before{content:'✓';position:absolute;left:0;color:var(--green);font-weight:700}
+.cons-card .pc-list li::before{content:'✗';position:absolute;left:0;color:var(--red);font-weight:700}
+.sources-box{background:var(--navy);padding:14px 18px;margin:16px 0;border-radius:2px}
+.sources-label{font-family:var(--sans);font-size:9px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
+.sources-list{list-style:none;padding:0}
+.sources-list li{padding:4px 0;border-bottom:1px solid rgba(255,255,255,.07)}
+.sources-list li:last-child{border-bottom:none}
+.sources-list a{font-family:var(--sans);font-size:12px;color:var(--gold-light);text-decoration:none;line-height:1.4}
+.article-sidebar{display:flex;flex-direction:column;gap:16px}
+.sidebar-widget{background:var(--navy);padding:18px 20px;border-radius:2px}
+.sw-title{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid rgba(201,150,58,.25)}
+.checklist{list-style:none;padding:0}
+.checklist li{display:flex;gap:10px;align-items:flex-start;font-family:var(--sans);font-size:12px;color:rgba(255,255,255,.78);line-height:1.45;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.06)}
+.checklist li:last-child{border-bottom:none}
+.check-box{width:14px;height:14px;border:2px solid var(--gold);border-radius:2px;flex-shrink:0;margin-top:2px}
+.action-steps-list{list-style:none;padding:0;counter-reset:step}
+.action-steps-list li{display:flex;gap:10px;align-items:flex-start;font-family:var(--sans);font-size:12px;color:rgba(255,255,255,.78);line-height:1.45;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.06);counter-increment:step}
+.action-steps-list li:last-child{border-bottom:none}
+.action-steps-list li::before{content:counter(step);font-family:var(--serif);font-size:15px;font-weight:900;color:var(--gold);min-width:18px;line-height:1}
+.q-list{list-style:none;padding:0}
+.q-list li{font-family:var(--body);font-size:12px;color:rgba(255,255,255,.7);line-height:1.5;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.06);font-style:italic}
+.q-list li:last-child{border-bottom:none}
+.cta-box{background:var(--gold);padding:18px 20px;text-align:center}
+.cta-title{font-family:var(--serif);font-size:14px;font-weight:700;color:var(--navy);margin-bottom:6px}
+.cta-body{font-family:var(--sans);font-size:11px;color:var(--navy-mid);margin-bottom:12px}
+.cta-btn{display:block;background:var(--navy);color:var(--gold-light);font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;padding:9px 14px;text-align:center}
+.divider{text-align:center;padding:20px 0;color:var(--border);font-size:14px;letter-spacing:.3em}
+.gc-section{background:var(--cream-dark);padding:36px 40px;border-top:3px solid var(--navy);border-bottom:3px solid var(--gold)}
+.gc-label{font-family:var(--sans);font-size:9px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
+.gc-title{font-family:var(--serif);font-size:22px;font-weight:700;color:var(--navy);margin-bottom:16px;line-height:1.3}
+.gc-body{font-family:var(--body);font-size:15px;color:var(--text-mid);line-height:1.78}
+.gc-body p{margin-bottom:.85em}
+.gc-share{font-family:var(--sans);font-size:12px;color:var(--text-muted);margin-top:18px;padding-top:14px;border-top:1px solid var(--border)}
+.families-section{background:var(--navy);padding:48px 40px;border-top:3px solid var(--gold)}
+.fam-headline{font-family:var(--serif);font-size:30px;font-weight:900;color:#fff;margin-bottom:6px;line-height:1.2}
+.fam-sub{font-family:var(--sans);font-size:11px;color:var(--gold-light);letter-spacing:.1em;text-transform:uppercase;margin-bottom:16px}
+.fam-intro{font-family:var(--body);font-size:15px;color:rgba(255,255,255,.7);line-height:1.7;margin-bottom:28px}
+.fam-steps-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:28px}
+.fam-step{background:rgba(255,255,255,.05);border:1px solid rgba(201,150,58,.2);border-left:4px solid var(--gold);padding:16px 18px;display:flex;gap:14px}
+.fam-step-num{font-family:var(--serif);font-size:28px;font-weight:900;color:var(--gold);line-height:1;min-width:32px}
+.fam-step-title{font-family:var(--sans);font-size:13px;font-weight:700;color:#fff;margin-bottom:5px;line-height:1.3}
+.fam-step-body{font-family:var(--body);font-size:13px;color:rgba(255,255,255,.65);line-height:1.55}
+.advisory{background:rgba(201,150,58,.12);border:1px solid rgba(201,150,58,.35);padding:20px 24px;margin-top:12px}
+.advisory p{font-family:var(--body);font-size:14px;color:rgba(255,255,255,.8);line-height:1.7}
+.advisory strong{color:var(--gold-light)}
+.footer-cta{background:var(--gold);padding:24px 40px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.fcta-head{font-family:var(--serif);font-size:20px;font-weight:700;color:var(--navy);margin-bottom:4px}
+.fcta-sub{font-family:var(--sans);font-size:12px;color:var(--navy-mid)}
+.fcta-btn{background:var(--navy);color:var(--gold-light);font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;padding:12px 24px;white-space:nowrap}
+.footer{background:var(--navy-mid);padding:24px 40px;text-align:center}
+.footer-brand{font-family:var(--serif);font-size:20px;font-weight:900;color:var(--gold);margin-bottom:8px}
+.footer-copy{font-family:var(--sans);font-size:11px;color:rgba(255,255,255,.4);line-height:1.7}
+.footer-contact{font-family:var(--sans);font-size:11px;color:rgba(255,255,255,.5);margin-top:8px}
+.footer-contact a{color:var(--gold-light);text-decoration:none}
+</style>
+</head>
+<body><div class="page">
+<div class="masthead-top">
+  <span>Vol. I, Issue 11 &nbsp;·&nbsp; Edition 2026-11</span>
+  <span>February 9–13, 2026</span>
+</div>
+<div class="masthead-main">
+  <div>
+    <div class="brand-eyebrow">College Admissions Intelligence</div>
+    <div class="brand-title">Higher Ed<br><em>Insider</em></div>
+    <div class="brand-subtitle">Curated higher education intelligence for families navigating college today</div>
+  </div>
+  <div class="editor-block">
+    <div class="editor-photo"><div class="editor-initials">NH</div></div>
+    <div class="editor-name">Dr. Nathan<br>Hurwitz</div>
+    <div class="editor-title-line">Editor-in-Chief</div>
+  </div>
+</div>
+<div class="masthead-rule"></div>
+<div class="masthead-bottom">
+  <span>Edition <strong>2026-11</strong> &nbsp;·&nbsp; February 9–13, 2026</span>
+  <span>© 2026 Hurwitz Consulting</span>
+</div>
+<div class="contact-strip">
+  <a href="tel:2036139262"><span class="ci">☎</span> (203) 613-9262</a>
+  <a href="mailto:info@hurwitzadmissions.com"><span class="ci">✉</span> info@hurwitzadmissions.com</a>
+  <a href="https://www.hurwitzadmissions.com" target="_blank"><span class="ci">🌐</span> www.hurwitzadmissions.com</a>
+</div><div class="stats-bar">
+  <div class="stats-bar-label">This Week By the Numbers</div>
+  <div class="stats-row"><div class="stat-item"><div class="stat-number">$273M</div><div class="stat-label">California university NIH grants terminated (EdSource)</div></div><div class="stat-item"><div class="stat-number">8%</div><div class="stat-label">New top-tier endowment tax rate — now in effect for ~20 institutions</div></div><div class="stat-item"><div class="stat-number">2,200</div><div class="stat-label">Johns Hopkins employees laid off following federal funding freeze</div></div><div class="stat-item"><div class="stat-number">4th</div><div class="stat-label">U.S. Circuit Court upholds anti-DEI executive orders; reversal of injunction</div></div><div class="stat-item"><div class="stat-number">57%</div><div class="stat-label">Colleges reporting international enrollment decline in fall 2025 (Open Doors)</div></div><div class="stat-item"><div class="stat-number">19%</div><div class="stat-label">Decline in new international master's program students in fall 2025</div></div></div>
+</div><div class="topic-nav">
+  <span class="topic-nav-label">Jump to:</span>
+  <a href="#editors-note">Editor's Note</a>
+  <a href="#overview">Overview</a>
+  <a href="#t01">Hopkins Layoffs</a><a href="#t02">4th Circuit DEI Ruling</a><a href="#t03">Texas DEI Programs</a><a href="#t04">FAFSA Improvements</a><a href="#t05">Iowa Higher Ed Bills</a><a href="#t06">Tufts Investigation</a>
+  <a href="#families">For Families</a>
+</div><section class="editors-letter" id="editors-note">
+  <div class="section-label">From the Editor's Desk</div>
+  <div class="letter-inner">
+    <div class="letter-photo"><div class="letter-photo-initials">NH</div></div>
+    <div>
+      <div class="letter-salutation">Dear Parents and Guidance Counselors,</div>
+      <div class="letter-text"><p>The second week of February was dominated by two concrete, consequential developments: Johns Hopkins announced 2,200 layoffs following the federal funding freeze, and the Fourth Circuit Court of Appeals let the anti-DEI executive orders stand — removing the injunction that had protected institutions from having to immediately comply with the orders' broadest provisions.</p><p>Both stories affect families directly. The Hopkins layoffs are the largest single workforce reduction at a major research university in recent memory, and they signal what 'federal funding freeze' actually means at scale — not just lost research output but lost jobs, lost graduate student support, and lost undergraduate research opportunities. The DEI ruling means institutions must now actively comply with executive order requirements rather than simply awaiting legal resolution.</p><p>Against these pressures, the week also brought encouraging news on the FAFSA processing front — satisfaction is up and wait times are short — and a heartening community college enrollment story showing that deliberately designed access programs are producing real results. Here is the full picture.</p></div>
+      <div class="letter-sig">— Dr. Nathan Hurwitz</div>
+      <div class="letter-sig-title">College Admissions Consultant · Hurwitz Consulting · (203) 613-9262</div>
+    </div>
+  </div>
+</section><section class="overview-band" id="overview">
+  <div class="section-label">This Week's Top Stories</div>
+  <h2 class="overview-headline">Edition 2026-11: Johns Hopkins Lays Off 2,200; Fourth Circuit Upholds Anti-DEI Orders; FAFSA Processing Improves</h2>
+  <p class="overview-intro">The human cost of federal funding freezes becomes concrete as Johns Hopkins announces 2,200 layoffs. Anti-DEI orders get judicial green light. FAFSA processing improves. Six stories for families navigating an unstable landscape.</p>
+  <div class="hot-grid"><div class="hot-topic"><div class="hot-num">01</div><div class="hot-text">Johns Hopkins Lays Off 2,200 — The Human Cost of Federal Funding Freezes</div></div><div class="hot-topic"><div class="hot-num">02</div><div class="hot-text">Fourth Circuit Green-Lights Anti-DEI Orders: What Institutions Must Now Do</div></div><div class="hot-topic"><div class="hot-num">03</div><div class="hot-text">Texas Deepens DEI Program Cuts: Academic Freedom Concerns at Major State Universities</div></div><div class="hot-topic"><div class="hot-num">04</div><div class="hot-text">FAFSA Processing Is Actually Improving — Here Is How to Use That</div></div><div class="hot-topic"><div class="hot-num">05</div><div class="hot-text">Iowa's Push to Eliminate 'Low-Earning' Degrees: A Preview of What's Coming to More States</div></div><div class="hot-topic"><div class="hot-num">06</div><div class="hot-text">Federal Education Department Investigates Tufts Over Nonpartisan Voter Research</div></div></div>
+</section><div class="content-wrap"><article class="topic-section" id="t01">
+  <div class="topic-number-row"><span class="topic-num">TOPIC 01</span><span class="topic-cat">Research Funding / Human Cost</span></div>
+  <h2 class="topic-title">Johns Hopkins Lays Off 2,200 — The Human Cost of Federal Funding Freezes</h2>
+  <p class="topic-deck">Hopkins' $800M federal funding freeze produced one of the largest university workforce reductions in modern history. The layoffs reveal what federal funding disruption looks like at scale.</p>
+  <div class="topic-rule"></div>
+  <div class="article-grid">
+    <div class="article-main">
+      <div class="topic-body"><p>Johns Hopkins University announced approximately 2,200 layoffs following the administration's $800 million federal research funding freeze. Hopkins, which derives a larger percentage of its operating budget from federal research grants than almost any other American university, faced an immediate and severe fiscal crisis when the funding was frozen.</p><p>The layoffs include researchers, research support staff, and administrators — not just the scientists whose grants were directly affected. A federal research freeze at a major research university cascades through the entire institutional workforce because laboratory infrastructure, administrative support, and building operations are all partially supported by research overhead reimbursements.</p><p>The Chronicle of Higher Education's coverage of how Trump's admissions data demands are burdening institutions reveals an adjacent pressure: universities are now mobilizing institutional research staff to compile and transmit unprecedented volumes of student data to the federal government — diverting resources from educational and research functions.</p></div>
+      <div class="elite-spotlight">
+        <div class="spot-label">🎓 Elite Institution Spotlight</div>
+        <div class="spot-title">Research University Funding Risk: Current Status</div>
+        <div class="spot-items"><div class="spot-item"><div class="spot-school">Johns Hopkins</div><div class="spot-detail">$800M freeze → 2,200 layoffs. Clinical research, public health programs, and the School of Public Health most directly affected. Litigation active.</div></div><div class="spot-item"><div class="spot-school">Harvard</div><div class="spot-detail">$2.2B freeze. Court rulings partially protective. Litigation continuing. Research partially restored. Endowment providing bridge funding.</div></div><div class="spot-item"><div class="spot-school">Columbia</div><div class="spot-detail">Settled. Research funding restored. Nine federal preconditions govern campus environment in exchange for funding stability.</div></div><div class="spot-item"><div class="spot-school">Univ. of California System</div><div class="spot-detail">Won court ruling: judges ruled federal funding cannot be frozen on unsubstantiated antisemitism claims (AAUP case). Partial protection in place.</div></div><div class="spot-item"><div class="spot-school">Northwestern</div><div class="spot-detail">NIH grants frozen. Part of coalition litigation. Some funding restored by court order. Budget planning under continued uncertainty.</div></div></div>
+        <div class="spot-note">The range of institutional responses — from Harvard's full resistance to Columbia's settlement — reflects genuine institutional tradeoffs. Families should understand which posture their target institution has chosen and what that means for campus environment and financial stability.</div>
+      </div>
+      <div class="take-box">
+        <div class="take-label">Dr. Hurwitz's Take</div>
+        <div class="take-text">The Hopkins layoffs are the most concrete illustration yet of what 'federal funding freeze' means as a lived institutional experience. It is not a budget line — it is 2,200 people who lost their jobs, laboratories that went dark, clinical trials that paused, and graduate students whose dissertation research was disrupted. For families considering research universities, the question is not whether these events are happening, but how the specific institutions they are considering have responded and what their current financial position looks like.</div>
+      </div>
+      <div class="pros-cons">
+        <div class="pros-card"><div class="pc-label">Potential Benefits</div><ul class="pc-list"><li>Hopkins is actively managing the crisis with institutional leadership and is seeking to restore funding through litigation</li><li>Most other research universities have not faced freezes at the Hopkins scale</li><li>Congressional research funding preservation prevents the administration from cutting NIH/NSF budgets directly</li></ul></div>
+        <div class="cons-card"><div class="pc-label">Key Concerns</div><ul class="pc-list"><li>2,200 layoffs represent real people and real research capacity lost — not easily reversed even if funding is restored</li><li>Graduate students whose faculty mentors lost funding are often the hidden casualties of these freezes</li><li>The pattern is replicable — any institution that crosses the administration risks similar treatment</li></ul></div>
+      </div>
+      <div class="sources-box">
+        <div class="sources-label">Key Articles This Week</div>
+        <ul class="sources-list"><li><a href="#" target="_blank">AcademicJobs.com — 'Trump Higher Education Lawsuits Stall Reforms' (March 2026)</a></li><li><a href="#" target="_blank">The Chronicle of Higher Education — 'How Trump's Demand for Admissions Data Is Burdening Your College' (March 18, 2026)</a></li><li><a href="#" target="_blank">Inside Higher Ed — Johns Hopkins Layoff Coverage (Feb. 2026)</a></li></ul>
+      </div>
+    </div>
+    <aside class="article-sidebar">
+      <div class="sidebar-widget">
+        <div class="sw-title">✓ Action Checklist</div>
+        <ul class="checklist"><li><div class="check-box"></div>Research whether your target school has had any federal funding frozen — ask admissions directly</li><li><div class="check-box"></div>Ask about the financial stability of research programs in your intended field at each research university you're considering</li><li><div class="check-box"></div>For research-track applicants: ask specifically whether your intended lab or faculty mentor has active federal grants in good standing</li></ul>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">→ Action Steps</div>
+        <ol class="action-steps-list"><li>Search '[target school name] federal funding layoffs OR freeze 2025 OR 2026' to find any institutional coverage</li><li>Ask admissions: what is the current status of your institution's federal research funding relationships?</li><li>For pre-med applicants: ask specifically about the hospital and medical research connection — Hopkins' clinical research capacity is directly affected</li></ol>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">❓ Questions to Ask</div>
+        <ul class="q-list"><li>'Has your institution had any federal research funding frozen or terminated in the past 12 months?'</li><li>'Are any research programs or labs that admit undergraduates currently affected by funding disruptions?'</li><li>'What is your institution's contingency plan if additional federal funding is frozen or terminated?'</li></ul>
+      </div>
+      <div class="cta-box">
+        <div class="cta-title">Questions about your situation?</div>
+        <div class="cta-body">Dr. Hurwitz works with a limited number of families each year.</div>
+        <a href="https://www.hurwitzadmissions.com" class="cta-btn">Request a Consultation →</a>
+      </div>
+    </aside>
+  </div>
+</article>
+<div class="divider">— ✦ —</div><article class="topic-section" id="t02">
+  <div class="topic-number-row"><span class="topic-num">TOPIC 02</span><span class="topic-cat">DEI Policy / Fourth Circuit</span></div>
+  <h2 class="topic-title">Fourth Circuit Green-Lights Anti-DEI Orders: What Institutions Must Now Do</h2>
+  <p class="topic-deck">The 4th U.S. Circuit Court vacated the injunction blocking the administration's anti-DEI executive orders. Institutions are now actively reviewing scholarships, hiring, and programming for compliance.</p>
+  <div class="topic-rule"></div>
+  <div class="article-grid">
+    <div class="article-main">
+      <div class="topic-body"><p>The Fourth U.S. Circuit Court of Appeals vacated the preliminary injunction that had blocked the administration's major anti-DEI executive orders from applying to colleges and universities. The ruling allows the executive orders' requirements — which prohibit 'discriminatory' DEI practices as conditions of receiving federal funds — to take immediate effect at institutions.</p><p>The practical consequences are now unfolding: Indiana University announced it is reviewing all institutional scholarships for compliance. The 4th Circuit's ruling means institutions can no longer await legal resolution before acting. Compliance reviews are beginning at universities across the country, with the most sensitive areas being targeted scholarships, hiring initiatives, and programming directed at specific demographic groups.</p><p>Importantly, the ruling was on procedural grounds — the 4th Circuit found the lower court applied the wrong legal standard in issuing the injunction, not that the executive orders are necessarily constitutional. Further litigation is expected, but in the interim, compliance is required.</p></div>
+      
+      <div class="take-box">
+        <div class="take-label">Dr. Hurwitz's Take</div>
+        <div class="take-text">The Fourth Circuit ruling changes the compliance timeline for every university that receives federal funds — which is nearly all of them. The programs most at risk are those explicitly funded to serve historically underrepresented groups: targeted scholarships, first-generation student support programs, cultural centers with institutional funding, and faculty hiring initiatives. Families who rely on these programs should ask each target school specifically what programs are under review and what alternative support mechanisms exist.</div>
+      </div>
+      <div class="pros-cons">
+        <div class="pros-card"><div class="pc-label">Potential Benefits</div><ul class="pc-list"><li>Institutions are being forced to make explicit decisions about their support programs — creating more transparency than the ambiguity of the litigation period</li><li>Some programs will be restructured under different legal frameworks that preserve their educational function</li><li>Courts have ruled the executive orders can proceed but have not ruled on their ultimate constitutionality</li></ul></div>
+        <div class="cons-card"><div class="pc-label">Key Concerns</div><ul class="pc-list"><li>Programs specifically designed to support first-gen, low-income, and underrepresented students are immediately at risk</li><li>The compliance review burden is consuming institutional resources that could go to education</li><li>Chilling effect extends well beyond technically prohibited activities — institutions are being overly cautious</li></ul></div>
+      </div>
+      <div class="sources-box">
+        <div class="sources-label">Key Articles This Week</div>
+        <ul class="sources-list"><li><a href="#" target="_blank">Higher Ed Dive — '4th U.S. Circuit Court of Appeals Lets Two Executive Orders Stand' (Feb. 10, 2026)</a></li><li><a href="#" target="_blank">AAC&U — 'Top Texas University Deepens Fears for DEI Programmes' (Feb. 13, 2026)</a></li><li><a href="#" target="_blank">Inside Higher Ed — Indiana University Scholarship Review Coverage (Feb. 2026)</a></li></ul>
+      </div>
+    </div>
+    <aside class="article-sidebar">
+      <div class="sidebar-widget">
+        <div class="sw-title">✓ Action Checklist</div>
+        <ul class="checklist"><li><div class="check-box"></div>Ask each target school: which programs are currently under executive order compliance review?</li><li><div class="check-box"></div>Research whether any scholarship you plan to apply for is under legal review</li><li><div class="check-box"></div>Ask what alternative support exists for first-generation students, students of color, and other groups if targeted programs are restructured</li></ul>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">→ Action Steps</div>
+        <ol class="action-steps-list"><li>Search your target school's news page for 'DEI review' or 'executive order compliance' since February 10</li><li>Contact student services — not admissions — to ask which support programs are currently active and funded</li><li>For scholarships: contact the scholarship office directly to ask about current status and application eligibility</li></ol>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">❓ Questions to Ask</div>
+        <ul class="q-list"><li>'Are any scholarships or support programs I might be eligible for currently under executive order compliance review?'</li><li>'What alternative support mechanisms exist for students who relied on programs that are being restructured?'</li><li>'What is your institution's current policy on faculty diversity hiring, and how has it changed since February 10?'</li></ul>
+      </div>
+      <div class="cta-box">
+        <div class="cta-title">Questions about your situation?</div>
+        <div class="cta-body">Dr. Hurwitz works with a limited number of families each year.</div>
+        <a href="https://www.hurwitzadmissions.com" class="cta-btn">Request a Consultation →</a>
+      </div>
+    </aside>
+  </div>
+</article>
+<div class="divider">— ✦ —</div><article class="topic-section" id="t03">
+  <div class="topic-number-row"><span class="topic-num">TOPIC 03</span><span class="topic-cat">State Policy / Texas</span></div>
+  <h2 class="topic-title">Texas Deepens DEI Program Cuts: Academic Freedom Concerns at Major State Universities</h2>
+  <p class="topic-deck">University World News and AAC&U report that a top Texas university's restructuring of women's and gender studies programs is deepening fears about academic freedom. Texas A&M and UT Austin are under scrutiny.</p>
+  <div class="topic-rule"></div>
+  <div class="article-grid">
+    <div class="article-main">
+      <div class="topic-body"><p>University World News reported February 13, 2026 that a top Texas university — identified as restructuring Women's and Gender Studies programs — had deepened fears about DEI program elimination under the guise of administrative efficiency. AAC&U President Lynn Pasquerella described the restructuring as likely to be 'viewed against the backdrop of these particular fields being politically contested in Texas.'</p><p>Texas A&M University has been restructuring programs under legislative pressure since the Texas Legislature passed restrictions on DEI programs in 2023. The restructuring is accelerating in 2026 as the combination of state law, executive orders, and institutional conservative governance pressure converges. UT Austin has also reorganized programs in response to legislative pressure.</p><p>The practical question for families choosing Texas public universities: the academic breadth of programs that touch on gender, race, and equity topics has been materially reduced at the state's flagship institutions. Students interested in these fields — directly or as related to their major — should research current program availability rather than relying on historical program descriptions.</p></div>
+      
+      <div class="take-box">
+        <div class="take-label">Dr. Hurwitz's Take</div>
+        <div class="take-text">Academic freedom is not an abstract concern in this context. The systematic elimination of specific academic fields — not because they lack intellectual rigor but because they are politically contested — changes the educational environment in ways that affect all students, not just those who intended to study those fields. Students who want exposure to diverse perspectives across the curriculum should research the specific programs and course requirements at any politically contested state university before committing.</div>
+      </div>
+      <div class="pros-cons">
+        <div class="pros-card"><div class="pc-label">Potential Benefits</div><ul class="pc-list"><li>Some Texas institutions are maintaining academic quality in fields not targeted by political pressure</li><li>Texas public universities remain strong in engineering, business, computer science, and natural sciences</li><li>Academic freedom litigation is ongoing — some protections may be restored</li></ul></div>
+        <div class="cons-card"><div class="pc-label">Key Concerns</div><ul class="pc-list"><li>Women's and Gender Studies, ethnic studies, and related programs are being structurally reduced at multiple Texas institutions</li><li>AAC&U describes the restructuring as 'preventing students from exposure to diverse perspectives'</li><li>Legislative pressure on curriculum is ongoing and likely to continue in 2026</li></ul></div>
+      </div>
+      <div class="sources-box">
+        <div class="sources-label">Key Articles This Week</div>
+        <ul class="sources-list"><li><a href="#" target="_blank">University World News — 'Top Texas University Deepens Fears for DEI Programmes' (Feb. 13, 2026)</a></li><li><a href="#" target="_blank">AAC&U Media Coverage — Texas Program Restructuring Analysis (Feb. 2026)</a></li><li><a href="#" target="_blank">Washington Post — 'Academic Independence Must Be Protected' (Feb. 12, 2026)</a></li></ul>
+      </div>
+    </div>
+    <aside class="article-sidebar">
+      <div class="sidebar-widget">
+        <div class="sw-title">✓ Action Checklist</div>
+        <ul class="checklist"><li><div class="check-box"></div>For Texas public university applicants: research current program availability in your intended and related fields</li><li><div class="check-box"></div>Ask admissions about course requirements for your intended major — curriculum changes may have affected available electives</li><li><div class="check-box"></div>Research faculty departures at your intended department — academic freedom concerns can trigger faculty exits</li></ul>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">→ Action Steps</div>
+        <ol class="action-steps-list"><li>Look at the specific course catalog (not the general university website) for your intended program at Texas public universities — catalog changes reflect actual program reductions</li><li>Contact faculty in your intended department directly to ask about current departmental direction and research activity</li><li>Compare Texas public university programs against strong Texas private institutions (Rice, SMU, TCU) for program breadth</li></ol>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">❓ Questions to Ask</div>
+        <ul class="q-list"><li>'Have any programs in or adjacent to my intended major been restructured or reduced in the past year?'</li><li>'Are faculty in my intended department currently engaged in research in their core area, or has that changed?'</li><li>'What is your institution's specific policy on academic freedom for faculty in fields that have been politically contested?'</li></ul>
+      </div>
+      <div class="cta-box">
+        <div class="cta-title">Questions about your situation?</div>
+        <div class="cta-body">Dr. Hurwitz works with a limited number of families each year.</div>
+        <a href="https://www.hurwitzadmissions.com" class="cta-btn">Request a Consultation →</a>
+      </div>
+    </aside>
+  </div>
+</article>
+<div class="divider">— ✦ —</div><article class="topic-section" id="t04">
+  <div class="topic-number-row"><span class="topic-num">TOPIC 04</span><span class="topic-cat">Financial Aid / FAFSA</span></div>
+  <h2 class="topic-title">FAFSA Processing Is Actually Improving — Here Is How to Use That</h2>
+  <p class="topic-deck">An Education Department official told the NASFAA conference that FAFSA processing satisfaction is up and wait times are short. After two years of FAFSA chaos, this is meaningful news for families — if you act on it.</p>
+  <div class="topic-rule"></div>
+  <div class="article-grid">
+    <div class="article-main">
+      <div class="topic-body"><p>In a more encouraging development, a Department of Education official at the National Association of Student Financial Aid Administrators legislative conference reported that FAFSA processing satisfaction is up and wait times are short — a notable improvement from the 2023–2024 cycle's well-documented problems, which produced delayed aid offers and enrollment uncertainty for hundreds of thousands of students.</p><p>The improvement matters practically: earlier FAFSA completion leads to earlier aid offers, which enables better comparison shopping across institutions. Families who complete the FAFSA as soon as it opens — and who verify their submission was successfully processed — have meaningfully better planning information earlier in the decision cycle.</p><p>The FAFSA improvement story is also a timing reminder: families who have not yet completed FAFSA for the 2026–27 cycle should do so immediately. The earlier an aid offer is received, the more time there is to appeal, compare, and negotiate.</p></div>
+      
+      <div class="take-box">
+        <div class="take-label">Dr. Hurwitz's Take</div>
+        <div class="take-text">When the FAFSA works well, it is a powerful tool — it unlocks both federal aid and institutional aid processes simultaneously. The improvement in processing satisfaction is real news for the families currently navigating the process. My consistent advice remains: file as early as possible, verify your submission was processed, and follow up with each institution's financial aid office to confirm your file is complete. The earlier the award letter arrives, the more leverage you have.</div>
+      </div>
+      <div class="pros-cons">
+        <div class="pros-card"><div class="pc-label">Potential Benefits</div><ul class="pc-list"><li>Improved processing means earlier aid offers — more time for comparison and appeal</li><li>Reduced wait times reduce the planning uncertainty that plagued the 2023–24 cycle</li><li>Federal aid baseline (Pell, subsidized loans) is processed through FAFSA and now more reliable</li></ul></div>
+        <div class="cons-card"><div class="pc-label">Key Concerns</div><ul class="pc-list"><li>FAFSA improvements don't address institutional aid award generosity — that varies by school</li><li>Some institutions still have slow internal processing — FAFSA completion is step one, not the final step</li><li>Policy changes from the One Big Beautiful Bill may affect FAFSA-linked aid calculations in coming cycles</li></ul></div>
+      </div>
+      <div class="sources-box">
+        <div class="sources-label">Key Articles This Week</div>
+        <ul class="sources-list"><li><a href="#" target="_blank">Higher Ed Dive — 'FAFSA Processing Satisfaction Up, Wait Times Short' (Feb. 11, 2026)</a></li><li><a href="#" target="_blank">NASFAA Legislative Conference Coverage — Dept. of Education Progress Report</a></li><li><a href="#" target="_blank">College Investor — 'This Week in College and Money News' (Feb. 27, 2026)</a></li></ul>
+      </div>
+    </div>
+    <aside class="article-sidebar">
+      <div class="sidebar-widget">
+        <div class="sw-title">✓ Action Checklist</div>
+        <ul class="checklist"><li><div class="check-box"></div>Complete the 2026–27 FAFSA immediately if not already done — earlier submission means earlier aid offers</li><li><div class="check-box"></div>Verify your FAFSA submission was successfully processed — look for confirmation emails and follow up with StudentAid.gov</li><li><div class="check-box"></div>Follow up with each target school's financial aid office after FAFSA submission to confirm your file is complete</li></ul>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">→ Action Steps</div>
+        <ol class="action-steps-list"><li>Log in to StudentAid.gov and check your FAFSA status — look for 'processed successfully' confirmation</li><li>Call or email each target school's financial aid office 2–3 weeks after FAFSA submission to confirm receipt</li><li>If you have unusual financial circumstances (business ownership, divorce, unusual income), consider contacting each financial aid office directly to flag them before your award letter is generated</li></ol>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">❓ Questions to Ask</div>
+        <ul class="q-list"><li>'Has my FAFSA been received and processed by your financial aid office?'</li><li>'Is my financial aid file complete, or are there additional documents needed?'</li><li>'What is your aid offer timeline — when can I expect to receive my financial aid award letter?'</li></ul>
+      </div>
+      <div class="cta-box">
+        <div class="cta-title">Questions about your situation?</div>
+        <div class="cta-body">Dr. Hurwitz works with a limited number of families each year.</div>
+        <a href="https://www.hurwitzadmissions.com" class="cta-btn">Request a Consultation →</a>
+      </div>
+    </aside>
+  </div>
+</article>
+<div class="divider">— ✦ —</div><article class="topic-section" id="t05">
+  <div class="topic-number-row"><span class="topic-num">TOPIC 05</span><span class="topic-cat">State Legislation / Iowa</span></div>
+  <h2 class="topic-title">Iowa's Push to Eliminate 'Low-Earning' Degrees: A Preview of What's Coming to More States</h2>
+  <p class="topic-deck">The Iowa House passed legislation that would eliminate low-earning degree programs at public universities. Indiana is considering similar measures. The degree program accountability movement is accelerating.</p>
+  <div class="topic-rule"></div>
+  <div class="article-grid">
+    <div class="article-main">
+      <div class="topic-body"><p>Higher Ed Dive reported that the Iowa House passed legislation that would eliminate degree programs at public universities where graduate earnings fall below specific thresholds. Indiana is considering parallel legislation. The bills represent the legislative implementation of the same logic as the federal FAFSA earnings indicator — programs that don't improve economic outcomes should not be supported with public resources.</p><p>The practical impact on program availability at Iowa public universities is significant: degree programs in education, social work, the arts, humanities, and some social science fields are most vulnerable to elimination under earnings-based accountability standards. The legislation creates a mechanism for the governor or legislature to eliminate specific programs over faculty objection.</p><p>The bills also raise academic governance concerns that go beyond individual program elimination: who decides what 'low-earning' means, and whether a degree program's value is captured by median earnings within two years of graduation, are genuinely contested questions. The concern from faculty groups is that earnings-based standards create a mechanism for political interference in academic program decisions.</p></div>
+      
+      <div class="take-box">
+        <div class="take-label">Dr. Hurwitz's Take</div>
+        <div class="take-text">Iowa's legislation is a preview of what several other state legislatures are likely to attempt in 2026 and 2027. The earnings-based accountability logic is politically popular and administratively simple. For families considering public universities in states with conservative legislatures — Iowa, Indiana, Texas, Florida, and others — the program availability question is now a genuine planning consideration. Research current program availability and ask admissions specifically about the legislative climate around your intended field.</div>
+      </div>
+      <div class="pros-cons">
+        <div class="pros-card"><div class="pc-label">Potential Benefits</div><ul class="pc-list"><li>Earnings accountability creates pressure on genuinely low-value programs to improve outcomes</li><li>Creates incentive for universities to track and report graduate employment outcomes more carefully</li><li>May redirect institutional resources from low-demand, low-outcome programs to higher-value alternatives</li></ul></div>
+        <div class="cons-card"><div class="pc-label">Key Concerns</div><ul class="pc-list"><li>Earnings-based elimination ignores the non-economic value of liberal arts education and civic preparation</li><li>Education, social work, and arts programs — socially essential but lower-earning — are most vulnerable</li><li>Legislative program elimination undermines faculty governance and academic freedom</li></ul></div>
+      </div>
+      <div class="sources-box">
+        <div class="sources-label">Key Articles This Week</div>
+        <ul class="sources-list"><li><a href="#" target="_blank">Higher Ed Dive — 'Indiana Bill Would Eliminate Low Earning Degrees' (Feb. 2026)</a></li><li><a href="#" target="_blank">Higher Ed Dive — Iowa House Legislation Coverage (Feb. 2026)</a></li><li><a href="#" target="_blank">AAC&U — Academic Freedom and State Legislative Intervention Analysis</a></li></ul>
+      </div>
+    </div>
+    <aside class="article-sidebar">
+      <div class="sidebar-widget">
+        <div class="sw-title">✓ Action Checklist</div>
+        <ul class="checklist"><li><div class="check-box"></div>Research whether your intended program at an Iowa, Indiana, Texas, or Florida public university is at risk under earnings-based legislation</li><li><div class="check-box"></div>Ask public university admissions about the current legislative climate around your intended field</li><li><div class="check-box"></div>If your intended program is politically contested or potentially subject to earnings review, research private university alternatives in the same region</li></ul>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">→ Action Steps</div>
+        <ol class="action-steps-list"><li>Search '[target state] legislature college degree program elimination 2026' to find current legislative activity</li><li>Contact the department chair or program director in your intended field to ask about program stability</li><li>Research private university alternatives in the same region that offer the same program without legislative accountability risk</li></ol>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">❓ Questions to Ask</div>
+        <ul class="q-list"><li>'Is my intended program at risk of review or elimination under any pending state legislation?'</li><li>'How does your institution's board respond to legislative pressure to eliminate specific degree programs?'</li><li>'What is the current enrollment trend in my intended program — growing, stable, or declining?'</li></ul>
+      </div>
+      <div class="cta-box">
+        <div class="cta-title">Questions about your situation?</div>
+        <div class="cta-body">Dr. Hurwitz works with a limited number of families each year.</div>
+        <a href="https://www.hurwitzadmissions.com" class="cta-btn">Request a Consultation →</a>
+      </div>
+    </aside>
+  </div>
+</article>
+<div class="divider">— ✦ —</div><article class="topic-section" id="t06">
+  <div class="topic-number-row"><span class="topic-num">TOPIC 06</span><span class="topic-cat">Academic Freedom / Federal Investigations</span></div>
+  <h2 class="topic-title">Federal Education Department Investigates Tufts Over Nonpartisan Voter Research</h2>
+  <p class="topic-deck">The Education Department opened an investigation into Tufts University over independent, nonpartisan research on voter participation — a signal that academic research itself is now under scrutiny if it touches politically sensitive topics.</p>
+  <div class="topic-rule"></div>
+  <div class="article-grid">
+    <div class="article-main">
+      <div class="topic-body"><p>WGBH reported February 6, 2026 that the federal Education Department opened an investigation into Tufts University over research on civic participation and voter engagement conducted by Tufts' nonpartisan civic research center. The investigation treats nonpartisan voter participation research as potentially suspect — a significant extension of federal scrutiny into academic research content.</p><p>AAC&U President Pasquerella characterized the investigation as representing a new concern: 'It's the idea that nonpartisan research on civic participation could be treated as suspect simply because it relates to voting.' The investigation signals that federally funded research touching on voting, elections, or political behavior is now potentially subject to investigation regardless of its nonpartisan methodology.</p><p>The chilling effect on campus research culture is direct: researchers who study elections, political behavior, civic engagement, or related topics are now making risk assessments about their work that have nothing to do with academic merit. This affects not just faculty — it affects graduate students, undergraduate researchers, and the intellectual climate of institutions that have historically been centers of civic research.</p></div>
+      
+      <div class="take-box">
+        <div class="take-label">Dr. Hurwitz's Take</div>
+        <div class="take-text">The Tufts investigation is a significant escalation because it targets research methodology and topic, not institutional conduct. Previous investigations focused on campus speech policies, antisemitism response, or DEI practices — at least nominally connected to civil rights enforcement. Investigating nonpartisan voter research extends federal scrutiny into the content of academic inquiry itself. For families considering research universities with strong civic research programs, this is a real academic freedom concern.</div>
+      </div>
+      <div class="pros-cons">
+        <div class="pros-card"><div class="pc-label">Potential Benefits</div><ul class="pc-list"><li>Federal courts have generally been skeptical of investigations that lack a clear civil rights rationale</li><li>The investigation is in early stages — no funding has been frozen and the research continues</li><li>Congressional protection of research funding limits the administration's ability to weaponize funding freezes over research content</li></ul></div>
+        <div class="cons-card"><div class="pc-label">Key Concerns</div><ul class="pc-list"><li>Chilling effect on civic research is real regardless of investigation outcome — researchers self-censor when under scrutiny</li><li>Non-partisan research on politically sensitive topics now carries institutional risk — a new constraint on academic freedom</li><li>Pattern of investigations is intended to deter, not just to find violations — deterrence is working</li></ul></div>
+      </div>
+      <div class="sources-box">
+        <div class="sources-label">Key Articles This Week</div>
+        <ul class="sources-list"><li><a href="#" target="_blank">WGBH — 'Federal Education Department Investigates Tufts Over Independent Voter Research' (Feb. 6, 2026)</a></li><li><a href="#" target="_blank">AAC&U — Media Coverage of Tufts Investigation (Feb. 2026)</a></li><li><a href="#" target="_blank">Inside Higher Ed — Federal Investigation Pattern Analysis</a></li></ul>
+      </div>
+    </div>
+    <aside class="article-sidebar">
+      <div class="sidebar-widget">
+        <div class="sw-title">✓ Action Checklist</div>
+        <ul class="checklist"><li><div class="check-box"></div>For students interested in civic engagement, political science, or public policy: research the current academic freedom environment at target schools</li><li><div class="check-box"></div>Ask about institutional support for researchers under investigation — does your target school defend academic freedom actively?</li><li><div class="check-box"></div>Research whether your target school has any pending federal investigations, regardless of topic</li></ul>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">→ Action Steps</div>
+        <ol class="action-steps-list"><li>Search '[target school] federal investigation 2025 2026' to identify any current investigations</li><li>Ask admissions about your institution's formal academic freedom statement and recent academic freedom cases it has defended</li><li>For policy research-track students: research your target school's civic research center and its current funding sources — federally funded centers face more scrutiny than privately funded ones</li></ol>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">❓ Questions to Ask</div>
+        <ul class="q-list"><li>'Has your institution had any federal investigations in the past year, and what is their current status?'</li><li>'What is your institution's formal policy for defending researchers whose work comes under federal scrutiny?'</li><li>'Are there any pending investigations that might affect academic programs, campus culture, or institutional behavior?'</li></ul>
+      </div>
+      <div class="cta-box">
+        <div class="cta-title">Questions about your situation?</div>
+        <div class="cta-body">Dr. Hurwitz works with a limited number of families each year.</div>
+        <a href="https://www.hurwitzadmissions.com" class="cta-btn">Request a Consultation →</a>
+      </div>
+    </aside>
+  </div>
+</article>
+<div class="divider">— ✦ —</div></div><section class="gc-section" id="gc">
+  <div class="gc-label">Guidance Counselor Corner</div>
+  <h2 class="gc-title">What Every Counselor Should Know and Share This Week</h2>
+  <div class="gc-body"><p>This week counselors have two major compliance developments to translate for families. First: the Fourth Circuit DEI ruling means the compliance question is no longer 'will institutions have to comply?' but 'how are they complying, and what does that mean for specific programs?' Help families ask the specific program-level questions, not the general policy questions.</p><p>The Hopkins layoff story deserves attention from counselors advising pre-med, public health, and bioscience students specifically. Hopkins is one of the preeminent institutions for these fields, and the funding freeze is affecting the specific research environment that makes Hopkins distinctive. Research-track students considering Hopkins or comparable institutions should ask explicit questions about lab funding status.</p><p>The Iowa degree elimination legislation is a preview of what will come to other states. Counselors with students considering public universities in Iowa, Indiana, Texas, or Florida should proactively research current program availability and legislative climate around the student's intended field before the student has committed to a school.</p></div>
+  <div class="gc-share">📤 <strong>Share this edition:</strong> Forward freely with attribution to <em>Higher Ed Insider</em>, Dr. Nathan Hurwitz. Subscribe at <a href="https://www.hurwitzadmissions.com">www.hurwitzadmissions.com</a> or email <a href="mailto:info@hurwitzadmissions.com">info@hurwitzadmissions.com</a>.</div>
+</section><section class="families-section" id="families">
+  <div class="section-label">What This Means For Families</div>
+  <h2 class="fam-headline">Your Action Guide — Edition 2026-11</h2>
+  <p class="fam-sub">Dr. Hurwitz's Analysis · February 9–13, 2026</p>
+  <p class="fam-intro">A consequential week with real changes to campus programs and institutional environments. Here is what to do right now.</p>
+  <div class="fam-steps-grid"><div class="fam-step">
+      <div class="fam-step-num">1</div>
+      <div><div class="fam-step-title">Ask target schools about current federal investigation status</div><div class="fam-step-body">The Hopkins layoffs and Tufts investigation both represent what federal scrutiny looks like at scale. Ask admissions whether your target school has any active federal investigations — and what the status is.</div></div>
+    </div><div class="fam-step">
+      <div class="fam-step-num">2</div>
+      <div><div class="fam-step-title">Verify availability of targeted support programs before relying on them</div><div class="fam-step-body">The Fourth Circuit ruling means programs are now being actively reviewed. Contact student services — not admissions — to verify the status of any program you plan to use.</div></div>
+    </div><div class="fam-step">
+      <div class="fam-step-num">3</div>
+      <div><div class="fam-step-title">Research Texas and Iowa public universities' program stability</div><div class="fam-step-body">Legislative pressure on curriculum is real and consequential. If your intended program is in a politically contested field, research whether it is currently offered and fully staffed at your target public university.</div></div>
+    </div><div class="fam-step">
+      <div class="fam-step-num">4</div>
+      <div><div class="fam-step-title">Complete FAFSA now and follow up with each school</div><div class="fam-step-body">Processing is working well — use it. File immediately, verify confirmation, and follow up with financial aid offices to confirm your file is complete.</div></div>
+    </div><div class="fam-step">
+      <div class="fam-step-num">5</div>
+      <div><div class="fam-step-title">For research-track students: ask about lab and mentor funding stability</div><div class="fam-step-body">Federal funding freezes are cascading into graduate student support and undergraduate research opportunities. Ask specifically about your intended lab's funding status.</div></div>
+    </div><div class="fam-step">
+      <div class="fam-step-num">6</div>
+      <div><div class="fam-step-title">For pre-med and public health applicants: reconsider Hopkins risk</div><div class="fam-step-body">The layoffs signal real institutional strain. Hopkins remains excellent — but ask specific questions about how the funding freeze is affecting programs and research in your intended area.</div></div>
+    </div></div>
+  <div class="advisory"><p><strong>Dr. Hurwitz's Bottom Line:</strong> This was a week where abstract policy developments became concrete institutional realities. 2,200 people lost their jobs at one university. Programs at Texas and Iowa universities are being restructured or eliminated. DEI compliance is now mandatory at institutions receiving federal funds. These are not hypothetical risks — they are current facts that should inform college selection decisions.</p></div>
+</section><div class="footer-cta">
+  <div>
+    <div class="fcta-head">Ready to build your family's personalized college strategy?</div>
+    <div class="fcta-sub">Dr. Hurwitz works with a limited number of families each year. Consultations fill early.</div>
+  </div>
+  <a href="https://www.hurwitzadmissions.com" class="fcta-btn">Request a Consultation →</a>
+</div>
+<footer class="footer">
+  <div class="footer-brand">Higher Ed Insider</div>
+  <div class="footer-copy">© 2026 Hurwitz Consulting. All rights reserved.<br>Edition 2026-11 · February 9–13, 2026 · Vol. I, Issue 11</div>
+  <div class="footer-contact">Dr. Nathan Hurwitz | College Admissions Consultant<br>
+    <a href="tel:2036139262">(203) 613-9262</a> · <a href="mailto:info@hurwitzadmissions.com">info@hurwitzadmissions.com</a> · <a href="https://www.hurwitzadmissions.com">www.hurwitzadmissions.com</a>
+  </div>
+</footer></div></body></html>

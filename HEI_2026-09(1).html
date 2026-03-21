@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Higher Ed Insider — Edition 2026-09 · January 26–February 1, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>/* HEI Shared Stylesheet */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#0a1628;--navy-mid:#132040;--navy-light:#1e3058;
+  --gold:#c9963a;--gold-light:#e8b96a;--gold-pale:#f5e9d0;
+  --cream:#faf8f4;--cream-dark:#f2ede3;
+  --slate:#3a4a5c;--red:#c23b2a;--green:#2a7a4f;
+  --text-dark:#1a2332;--text-mid:#3d4f63;--text-muted:#6b7f94;
+  --border:#d8d0c4;
+  --serif:'Playfair Display',Georgia,serif;
+  --body:'Source Serif 4',Georgia,serif;
+  --sans:'Inter',system-ui,sans-serif
+}
+html{font-size:16px;scroll-behavior:smooth}
+body{background:#e8e2d8;color:var(--text-dark);font-family:var(--body);line-height:1.7}
+.page{max-width:940px;margin:32px auto;background:var(--cream);box-shadow:0 8px 48px rgba(0,0,0,.22)}
+.masthead-top{background:#fff;padding:10px 40px;border-bottom:3px solid var(--gold);display:flex;justify-content:space-between;align-items:center}
+.masthead-top span{font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--navy-mid)}
+.masthead-main{background:var(--navy);padding:28px 40px 24px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center}
+.brand-eyebrow{font-family:var(--sans);font-size:10px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+.brand-title{font-family:var(--serif);font-size:52px;font-weight:900;color:#fff;line-height:1}
+.brand-title em{color:var(--gold);font-style:italic}
+.brand-subtitle{font-family:var(--sans);font-size:12px;color:rgba(255,255,255,.6);letter-spacing:.07em;margin-top:8px}
+.editor-block{display:flex;flex-direction:column;align-items:center;gap:10px;min-width:130px}
+.editor-photo{width:84px;height:84px;border-radius:50%;border:3px solid var(--gold);overflow:hidden;background:var(--navy-light);display:flex;align-items:center;justify-content:center}
+.editor-initials{font-family:var(--serif);font-size:26px;font-weight:700;color:var(--gold)}
+.editor-name{font-family:var(--serif);font-size:13px;font-weight:700;color:#fff;line-height:1.3;text-align:center}
+.editor-title-line{font-family:var(--sans);font-size:9.5px;color:var(--gold-light);letter-spacing:.06em;text-transform:uppercase;margin-top:2px;text-align:center}
+.masthead-rule{height:3px;background:linear-gradient(90deg,var(--gold),var(--gold-light),var(--gold))}
+.masthead-bottom{background:var(--navy-mid);padding:8px 40px;display:flex;justify-content:space-between;align-items:center}
+.masthead-bottom span{font-family:var(--sans);font-size:11px;color:rgba(255,255,255,.5);letter-spacing:.04em}
+.masthead-bottom strong{color:var(--gold-light);font-weight:600}
+.contact-strip{background:var(--navy);padding:8px 40px;display:flex;justify-content:center;align-items:center;gap:28px;flex-wrap:wrap}
+.contact-strip a{font-family:var(--sans);font-size:12px;color:rgba(255,255,255,.6);text-decoration:none}
+.ci{color:var(--gold)}
+.stats-bar{background:var(--gold);padding:18px 40px;border-bottom:3px solid var(--navy)}
+.stats-bar-label{font-family:var(--sans);font-size:9px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:var(--navy);text-align:center;margin-bottom:12px;opacity:.7}
+.stats-row{display:flex;flex-wrap:wrap;justify-content:center}
+.stat-item{display:flex;flex-direction:column;align-items:center;padding:6px 18px;border-right:1px solid rgba(10,22,40,.2);text-align:center;min-width:120px}
+.stat-item:last-child{border-right:none}
+.stat-number{font-family:var(--serif);font-size:28px;font-weight:900;color:var(--navy);line-height:1}
+.stat-label{font-family:var(--sans);font-size:10px;font-weight:600;color:var(--navy-mid);letter-spacing:.04em;text-transform:uppercase;margin-top:3px;line-height:1.3}
+.topic-nav{background:var(--cream-dark);border-bottom:2px solid var(--navy);padding:10px 40px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.topic-nav-label{font-family:var(--sans);font-size:10px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--text-muted);margin-right:4px}
+.topic-nav a{font-family:var(--sans);font-size:11px;font-weight:500;color:var(--navy);text-decoration:none;padding:3px 9px;background:rgba(10,22,40,.07);border-radius:20px}
+.section-label{font-family:var(--sans);font-size:9px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-bottom:14px;display:flex;align-items:center;gap:10px}
+.section-label::after{content:'';flex:1;height:1px;background:rgba(201,150,58,.3)}
+.editors-letter{background:var(--navy);padding:40px;border-bottom:3px solid var(--gold)}
+.letter-inner{display:grid;grid-template-columns:72px 1fr;gap:24px;align-items:start}
+.letter-photo{width:72px;height:72px;border-radius:50%;border:2px solid var(--gold);overflow:hidden;background:var(--navy-light);display:flex;align-items:center;justify-content:center}
+.letter-photo-initials{font-family:var(--serif);font-size:20px;font-weight:700;color:var(--gold)}
+.letter-salutation{font-family:var(--serif);font-size:14px;font-weight:700;color:var(--gold-light);margin-bottom:12px;font-style:italic}
+.letter-text{font-family:var(--body);font-size:15px;color:rgba(255,255,255,.82);line-height:1.78}
+.letter-text p{margin-bottom:.85em}
+.letter-sig{font-family:var(--serif);font-size:16px;font-style:italic;color:var(--gold-light);margin-top:16px}
+.letter-sig-title{font-family:var(--sans);font-size:10px;font-weight:600;color:rgba(255,255,255,.45);letter-spacing:.1em;text-transform:uppercase;margin-top:3px}
+.overview-band{background:var(--navy-mid);padding:36px 40px;border-bottom:3px solid var(--gold)}
+.overview-headline{font-family:var(--serif);font-size:24px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:14px;font-style:italic}
+.overview-intro{font-family:var(--body);font-size:15px;color:rgba(255,255,255,.75);line-height:1.75;margin-bottom:24px}
+.hot-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.hot-topic{display:flex;align-items:flex-start;gap:12px;background:rgba(255,255,255,.06);border:1px solid rgba(201,150,58,.2);border-left:3px solid var(--gold);padding:11px 14px}
+.hot-num{font-family:var(--serif);font-size:22px;font-weight:900;color:var(--gold);line-height:1;min-width:28px}
+.hot-text{font-family:var(--sans);font-size:12px;font-weight:500;color:rgba(255,255,255,.88);line-height:1.4}
+.content-wrap{padding:0 40px}
+.article-grid{display:grid;grid-template-columns:1fr 280px;gap:32px;align-items:start}
+.topic-section{padding:40px 0;border-bottom:2px solid var(--border)}
+.topic-section:last-of-type{border-bottom:none}
+.topic-number-row{display:flex;align-items:center;gap:14px;margin-bottom:8px}
+.topic-num{font-family:var(--serif);font-size:12px;font-weight:700;color:var(--gold);background:var(--navy);padding:3px 10px}
+.topic-cat{font-family:var(--sans);font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--text-muted)}
+.topic-title{font-family:var(--serif);font-size:24px;font-weight:700;color:var(--text-dark);line-height:1.25;margin-bottom:6px}
+.topic-deck{font-family:var(--body);font-size:15.5px;font-weight:300;font-style:italic;color:var(--slate);line-height:1.6}
+.topic-rule{height:2px;background:var(--gold);width:50px;margin:14px 0}
+.topic-body{font-family:var(--body);font-size:15px;color:var(--text-mid);line-height:1.78}
+.topic-body p{margin-bottom:1em}
+.elite-spotlight{background:linear-gradient(135deg,#0a1628 80%,#132040);border:1px solid rgba(201,150,58,.4);border-left:4px solid var(--gold);padding:20px 22px;margin:22px 0;border-radius:3px}
+.spot-label{font-family:var(--sans);font-size:9px;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+.spot-title{font-family:var(--serif);font-size:16px;font-weight:700;color:#fff;font-style:italic;margin-bottom:14px;line-height:1.35}
+.spot-items{display:flex;flex-direction:column;gap:8px;margin-bottom:12px}
+.spot-item{display:grid;grid-template-columns:170px 1fr;gap:12px;align-items:baseline}
+.spot-school{font-family:var(--sans);font-size:11px;font-weight:700;color:var(--gold-light)}
+.spot-detail{font-family:var(--body);font-size:13px;color:rgba(255,255,255,.75);line-height:1.5}
+.spot-note{font-family:var(--body);font-size:13px;color:rgba(255,255,255,.6);font-style:italic;border-top:1px solid rgba(201,150,58,.25);padding-top:10px;line-height:1.6}
+.take-box{background:var(--cream-dark);border-left:4px solid var(--navy);padding:18px 20px;margin:20px 0}
+.take-label{font-family:var(--sans);font-size:9px;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:var(--navy);margin-bottom:8px}
+.take-text{font-family:var(--body);font-size:14px;color:var(--text-mid);line-height:1.7;font-style:italic}
+.pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
+.pros-card{background:#f0f8f3;border:1px solid #b8ddc8;border-top:3px solid var(--green);padding:14px 16px}
+.cons-card{background:#fdf5f4;border:1px solid #e8c8c4;border-top:3px solid var(--red);padding:14px 16px}
+.pc-label{font-family:var(--sans);font-size:9px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;margin-bottom:10px}
+.pros-card .pc-label{color:var(--green)}.cons-card .pc-label{color:var(--red)}
+.pc-list{list-style:none;padding:0}
+.pc-list li{font-family:var(--sans);font-size:12px;color:var(--text-mid);line-height:1.5;padding:4px 0 4px 16px;position:relative;border-bottom:1px solid rgba(0,0,0,.05)}
+.pc-list li:last-child{border-bottom:none}
+.pros-card .pc-list li::before{content:'✓';position:absolute;left:0;color:var(--green);font-weight:700}
+.cons-card .pc-list li::before{content:'✗';position:absolute;left:0;color:var(--red);font-weight:700}
+.sources-box{background:var(--navy);padding:14px 18px;margin:16px 0;border-radius:2px}
+.sources-label{font-family:var(--sans);font-size:9px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
+.sources-list{list-style:none;padding:0}
+.sources-list li{padding:4px 0;border-bottom:1px solid rgba(255,255,255,.07)}
+.sources-list li:last-child{border-bottom:none}
+.sources-list a{font-family:var(--sans);font-size:12px;color:var(--gold-light);text-decoration:none;line-height:1.4}
+.article-sidebar{display:flex;flex-direction:column;gap:16px}
+.sidebar-widget{background:var(--navy);padding:18px 20px;border-radius:2px}
+.sw-title{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid rgba(201,150,58,.25)}
+.checklist{list-style:none;padding:0}
+.checklist li{display:flex;gap:10px;align-items:flex-start;font-family:var(--sans);font-size:12px;color:rgba(255,255,255,.78);line-height:1.45;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.06)}
+.checklist li:last-child{border-bottom:none}
+.check-box{width:14px;height:14px;border:2px solid var(--gold);border-radius:2px;flex-shrink:0;margin-top:2px}
+.action-steps-list{list-style:none;padding:0;counter-reset:step}
+.action-steps-list li{display:flex;gap:10px;align-items:flex-start;font-family:var(--sans);font-size:12px;color:rgba(255,255,255,.78);line-height:1.45;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.06);counter-increment:step}
+.action-steps-list li:last-child{border-bottom:none}
+.action-steps-list li::before{content:counter(step);font-family:var(--serif);font-size:15px;font-weight:900;color:var(--gold);min-width:18px;line-height:1}
+.q-list{list-style:none;padding:0}
+.q-list li{font-family:var(--body);font-size:12px;color:rgba(255,255,255,.7);line-height:1.5;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.06);font-style:italic}
+.q-list li:last-child{border-bottom:none}
+.cta-box{background:var(--gold);padding:18px 20px;text-align:center}
+.cta-title{font-family:var(--serif);font-size:14px;font-weight:700;color:var(--navy);margin-bottom:6px}
+.cta-body{font-family:var(--sans);font-size:11px;color:var(--navy-mid);margin-bottom:12px}
+.cta-btn{display:block;background:var(--navy);color:var(--gold-light);font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;padding:9px 14px;text-align:center}
+.divider{text-align:center;padding:20px 0;color:var(--border);font-size:14px;letter-spacing:.3em}
+.gc-section{background:var(--cream-dark);padding:36px 40px;border-top:3px solid var(--navy);border-bottom:3px solid var(--gold)}
+.gc-label{font-family:var(--sans);font-size:9px;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
+.gc-title{font-family:var(--serif);font-size:22px;font-weight:700;color:var(--navy);margin-bottom:16px;line-height:1.3}
+.gc-body{font-family:var(--body);font-size:15px;color:var(--text-mid);line-height:1.78}
+.gc-body p{margin-bottom:.85em}
+.gc-share{font-family:var(--sans);font-size:12px;color:var(--text-muted);margin-top:18px;padding-top:14px;border-top:1px solid var(--border)}
+.families-section{background:var(--navy);padding:48px 40px;border-top:3px solid var(--gold)}
+.fam-headline{font-family:var(--serif);font-size:30px;font-weight:900;color:#fff;margin-bottom:6px;line-height:1.2}
+.fam-sub{font-family:var(--sans);font-size:11px;color:var(--gold-light);letter-spacing:.1em;text-transform:uppercase;margin-bottom:16px}
+.fam-intro{font-family:var(--body);font-size:15px;color:rgba(255,255,255,.7);line-height:1.7;margin-bottom:28px}
+.fam-steps-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:28px}
+.fam-step{background:rgba(255,255,255,.05);border:1px solid rgba(201,150,58,.2);border-left:4px solid var(--gold);padding:16px 18px;display:flex;gap:14px}
+.fam-step-num{font-family:var(--serif);font-size:28px;font-weight:900;color:var(--gold);line-height:1;min-width:32px}
+.fam-step-title{font-family:var(--sans);font-size:13px;font-weight:700;color:#fff;margin-bottom:5px;line-height:1.3}
+.fam-step-body{font-family:var(--body);font-size:13px;color:rgba(255,255,255,.65);line-height:1.55}
+.advisory{background:rgba(201,150,58,.12);border:1px solid rgba(201,150,58,.35);padding:20px 24px;margin-top:12px}
+.advisory p{font-family:var(--body);font-size:14px;color:rgba(255,255,255,.8);line-height:1.7}
+.advisory strong{color:var(--gold-light)}
+.footer-cta{background:var(--gold);padding:24px 40px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.fcta-head{font-family:var(--serif);font-size:20px;font-weight:700;color:var(--navy);margin-bottom:4px}
+.fcta-sub{font-family:var(--sans);font-size:12px;color:var(--navy-mid)}
+.fcta-btn{background:var(--navy);color:var(--gold-light);font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;padding:12px 24px;white-space:nowrap}
+.footer{background:var(--navy-mid);padding:24px 40px;text-align:center}
+.footer-brand{font-family:var(--serif);font-size:20px;font-weight:900;color:var(--gold);margin-bottom:8px}
+.footer-copy{font-family:var(--sans);font-size:11px;color:rgba(255,255,255,.4);line-height:1.7}
+.footer-contact{font-family:var(--sans);font-size:11px;color:rgba(255,255,255,.5);margin-top:8px}
+.footer-contact a{color:var(--gold-light);text-decoration:none}
+</style>
+</head>
+<body><div class="page">
+<div class="masthead-top">
+  <span>Vol. I, Issue 9 &nbsp;·&nbsp; Edition 2026-09</span>
+  <span>January 26–February 1, 2026</span>
+</div>
+<div class="masthead-main">
+  <div>
+    <div class="brand-eyebrow">College Admissions Intelligence</div>
+    <div class="brand-title">Higher Ed<br><em>Insider</em></div>
+    <div class="brand-subtitle">Curated higher education intelligence for families navigating college today</div>
+  </div>
+  <div class="editor-block">
+    <div class="editor-photo"><div class="editor-initials">NH</div></div>
+    <div class="editor-name">Dr. Nathan<br>Hurwitz</div>
+    <div class="editor-title-line">Editor-in-Chief</div>
+  </div>
+</div>
+<div class="masthead-rule"></div>
+<div class="masthead-bottom">
+  <span>Edition <strong>2026-09</strong> &nbsp;·&nbsp; January 26–February 1, 2026</span>
+  <span>© 2026 Hurwitz Consulting</span>
+</div>
+<div class="contact-strip">
+  <a href="tel:2036139262"><span class="ci">☎</span> (203) 613-9262</a>
+  <a href="mailto:info@hurwitzadmissions.com"><span class="ci">✉</span> info@hurwitzadmissions.com</a>
+  <a href="https://www.hurwitzadmissions.com" target="_blank"><span class="ci">🌐</span> www.hurwitzadmissions.com</a>
+</div><div class="stats-bar">
+  <div class="stats-bar-label">This Week By the Numbers</div>
+  <div class="stats-row"><div class="stat-item"><div class="stat-number">$5B+</div><div class="stat-label">Foreign gifts and contracts reported by U.S. colleges annually (NPR analysis)</div></div><div class="stat-item"><div class="stat-number">4 in 10</div><div class="stat-label">Student loan borrowers with credit scores too low for private loans (Inside Higher Ed)</div></div><div class="stat-item"><div class="stat-number">623</div><div class="stat-label">Avg. community college enrollment increase from free college programs (Higher Ed Dive)</div></div><div class="stat-item"><div class="stat-number">8.2%</div><div class="stat-label">Average endowment return for colleges in FY2025 (NACUBO-Commonfund)</div></div><div class="stat-item"><div class="stat-number">12%</div><div class="stat-label">Tuition increase approved by Florida Board of Governors at 4-year institutions</div></div><div class="stat-item"><div class="stat-number">6</div><div class="stat-label">Higher ed lawsuits in federal courts actively challenging administration actions</div></div></div>
+</div><div class="topic-nav">
+  <span class="topic-nav-label">Jump to:</span>
+  <a href="#editors-note">Editor's Note</a>
+  <a href="#overview">Overview</a>
+  <a href="#t01">Private Loan Gap</a><a href="#t02">Community College Growth</a><a href="#t03">Florida Tuition Hike</a><a href="#t04">Foreign Gifts Scrutiny</a><a href="#t05">Endowment Returns</a><a href="#t06">Small College Mergers</a>
+  <a href="#families">For Families</a>
+</div><section class="editors-letter" id="editors-note">
+  <div class="section-label">From the Editor's Desk</div>
+  <div class="letter-inner">
+    <div class="letter-photo"><div class="letter-photo-initials">NH</div></div>
+    <div>
+      <div class="letter-salutation">Dear Parents and Guidance Counselors,</div>
+      <div class="letter-text"><p>The last week of January brought a cluster of stories that individually seem routine but together paint a picture of structural change in how college gets paid for. Four in ten student loan borrowers have credit scores too low for private loans — a statistic with enormous consequences for families who have built college plans around expected borrowing capacity. The endowment return data looks strong on paper but masks the tax burden and spending pressure. And community college free tuition programs are producing real enrollment gains, with implications for the transfer pathway.</p><p>The foreign gifts story is one I want to flag specifically for families: the $5 billion in foreign gifts and contracts reported annually by major research universities is now under new federal scrutiny. This affects primarily graduate program funding at research universities — but the scrutiny itself creates institutional caution that can affect research hiring and international faculty retention.</p><p>And the Florida 12% tuition increase is now official — affecting every Florida public university student. For families planning around Florida's historically competitive value proposition in public higher education, the calculation needs to be updated immediately.</p></div>
+      <div class="letter-sig">— Dr. Nathan Hurwitz</div>
+      <div class="letter-sig-title">College Admissions Consultant · Hurwitz Consulting · (203) 613-9262</div>
+    </div>
+  </div>
+</section><section class="overview-band" id="overview">
+  <div class="section-label">This Week's Top Stories</div>
+  <h2 class="overview-headline">Edition 2026-09: Private Loan Access Gap Exposed; Community College Enrollment Surges; Florida Tuition Jumps</h2>
+  <p class="overview-intro">New data reveals that four in ten borrowers can't qualify for private loans to fill aid gaps. Community college free tuition programs drive real enrollment gains. Florida's 12% tuition increase is official. Six essential stories.</p>
+  <div class="hot-grid"><div class="hot-topic"><div class="hot-num">01</div><div class="hot-text">Four in Ten Borrowers Can't Qualify for Private Loans — and Families Don't Know Until April</div></div><div class="hot-topic"><div class="hot-num">02</div><div class="hot-text">Free Community College Programs Driving Real Enrollment Gains: What the Numbers Show</div></div><div class="hot-topic"><div class="hot-num">03</div><div class="hot-text">Florida's 12% Public University Tuition Hike Is Now Official — What Families Need to Recalculate</div></div><div class="hot-topic"><div class="hot-num">04</div><div class="hot-text">Foreign Gifts Under Federal Scrutiny: What $5 Billion in International Funding Means for Research Universities</div></div><div class="hot-topic"><div class="hot-num">05</div><div class="hot-text">Strong Endowment Returns Look Good — But Don't Tell the Whole Story</div></div><div class="hot-topic"><div class="hot-num">06</div><div class="hot-text">What College Presidents Said at AAC&U — And What It Means for Campus Culture</div></div></div>
+</section><div class="content-wrap"><article class="topic-section" id="t01">
+  <div class="topic-number-row"><span class="topic-num">TOPIC 01</span><span class="topic-cat">Student Loans / Financial Aid</span></div>
+  <h2 class="topic-title">Four in Ten Borrowers Can't Qualify for Private Loans — and Families Don't Know Until April</h2>
+  <p class="topic-deck">Inside Higher Ed: Researchers found that four in ten borrowers have credit scores too low for private loans, raising concerns that families are building college plans around borrowing capacity they don't have.</p>
+  <div class="topic-rule"></div>
+  <div class="article-grid">
+    <div class="article-main">
+      <div class="topic-body"><p>Inside Higher Ed reported on research finding that four in ten student loan borrowers have credit scores too low to qualify for private loans — a finding with enormous practical consequences for the college planning process. Private loans are how many families expect to bridge the gap between institutional aid and the full cost of attendance. The discovery that they don't qualify typically happens in April of senior year, after emotional and logistical commitments have already been made.</p><p>The problem is structural: families use net price calculators, receive institutional aid packages, and calculate an expected gap. They then assume a private loan will fill the gap. The step of verifying their private loan qualification status — which takes a phone call or online inquiry — is almost never completed during the planning phase. By the time the family discovers they don't qualify, deposit deadlines are past.</p><p>This is distinct from the Parent PLUS loan question. Parent PLUS loans have looser credit standards than private loans and are available to most parents. But Parent PLUS loans carry higher interest rates than private loans, and their repayment is not income-based — a significant financial planning difference for families managing tight budgets.</p></div>
+      
+      <div class="take-box">
+        <div class="take-label">Dr. Hurwitz's Take</div>
+        <div class="take-text">This is the most preventable financial planning failure I see consistently. The fix takes 20 minutes: have parents pre-qualify for private loans while still in the junior year planning phase, before any school is on a finalized list. If they don't qualify, the list should be built around schools where aid packages don't require private loan supplementation. The 44% statistic in our Edition 2026-10 data and this week's '4 in 10 borrowers' data point to the same systemic gap.</div>
+      </div>
+      <div class="pros-cons">
+        <div class="pros-card"><div class="pc-label">Potential Benefits</div><ul class="pc-list"><li>Parent PLUS loans remain available as a federal backstop for families who don't qualify for private loans</li><li>Some institutions offer institutional payment plans that reduce the need for external borrowing</li><li>Early discovery of private loan ineligibility creates time for list adjustment</li></ul></div>
+        <div class="cons-card"><div class="pc-label">Key Concerns</div><ul class="pc-list"><li>Discovery typically happens in April of senior year — after emotional and logistical commitments are made</li><li>Parent PLUS rates (currently 8%+) are significantly higher than private loan rates for qualified borrowers</li><li>Families with poor credit history may have no private borrowing option at all, limiting choices to fully-aided schools</li></ul></div>
+      </div>
+      <div class="sources-box">
+        <div class="sources-label">Key Articles This Week</div>
+        <ul class="sources-list"><li><a href="#" target="_blank">Inside Higher Ed — 'ED Panel Kicks Off Accountability Talks: Four in Ten Borrowers Have Credit Scores Too Low for Private Loans' (Jan. 6, 2026)</a></li><li><a href="#" target="_blank">College Investor — College Report: Education, Money, and Campus News (Feb. 2026)</a></li><li><a href="#" target="_blank">NASFAA — Student Loan Qualification Research</a></li></ul>
+      </div>
+    </div>
+    <aside class="article-sidebar">
+      <div class="sidebar-widget">
+        <div class="sw-title">✓ Action Checklist</div>
+        <ul class="checklist"><li><div class="check-box"></div>Have parents pre-qualify for private loans during junior year — not after acceptances arrive</li><li><div class="check-box"></div>Compare Parent PLUS loan rates against private loan rates before deciding which to use</li><li><div class="check-box"></div>Build the college list around schools where net price calculations don't require private loan supplementation</li></ul>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">→ Action Steps</div>
+        <ol class="action-steps-list"><li>Use Sallie Mae, College Ave, or similar lenders' pre-qualification tools to check eligibility before it matters</li><li>If private loan qualification is uncertain, build a list with at least three schools where the net price is fully covered by federal and institutional aid</li><li>Ask each target school's financial aid office: what is your average student loan debt at graduation? High averages often signal that students are filling gaps with private borrowing.</li></ol>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">❓ Questions to Ask</div>
+        <ul class="q-list"><li>'What is the average student loan debt for your graduates — and what percentage borrowed private loans?'</li><li>'Does your institution offer a payment plan that reduces or eliminates the need for private loans?'</li><li>'If our expected private loan qualification changes, does your aid package have a contingency mechanism?'</li></ul>
+      </div>
+      <div class="cta-box">
+        <div class="cta-title">Questions about your situation?</div>
+        <div class="cta-body">Dr. Hurwitz works with a limited number of families each year.</div>
+        <a href="https://www.hurwitzadmissions.com" class="cta-btn">Request a Consultation →</a>
+      </div>
+    </aside>
+  </div>
+</article>
+<div class="divider">— ✦ —</div><article class="topic-section" id="t02">
+  <div class="topic-number-row"><span class="topic-num">TOPIC 02</span><span class="topic-cat">Community College / Access</span></div>
+  <h2 class="topic-title">Free Community College Programs Driving Real Enrollment Gains: What the Numbers Show</h2>
+  <p class="topic-deck">Community college campuses saw an average increase of 623 students due to free tuition programs. Statewide re-enrollment initiatives in New Jersey, California, and others are proving scalable. The transfer pathway is being rebuilt.</p>
+  <div class="topic-rule"></div>
+  <div class="article-grid">
+    <div class="article-main">
+      <div class="topic-body"><p>Higher Ed Dive reported that community college campuses participating in free tuition programs saw an average enrollment increase of 623 students — a meaningful gain for institutions whose financial models depend on enrollment volume. New Jersey has re-enrolled over 13,000 students across 22 participating colleges and universities through statewide stop-out recovery initiatives. Parallel efforts in California, Nebraska, Illinois, and Minnesota are showing similar results.</p><p>The re-enrollment initiatives are largely targeting 'stop-out' students — adults who started college but didn't finish, often with a year or more of existing credit. These students have demonstrable academic capability and practical life experience; they also represent a direct solution to labor shortages in fields requiring postsecondary credentials without four-year degrees.</p><p>For families of current high school students, the community college pipeline story has a different implication: the transfer pathway is being rebuilt with significant state investment and institutional attention. Students who enter community college with a clear transfer plan — particularly in states with guaranteed transfer programs — are finding more deliberate support infrastructure than they would have five years ago.</p></div>
+      
+      <div class="take-box">
+        <div class="take-label">Dr. Hurwitz's Take</div>
+        <div class="take-text">Community college as a first step has historically been treated as a fallback rather than a strategy. The data increasingly supports treating it as a strategy — especially in states with guaranteed transfer programs that are now backed by real institutional infrastructure. The students who use the community college pathway strategically — who research their intended transfer institution's requirements before enrolling, who complete honors coursework, who build faculty relationships — consistently outperform their expectations.</div>
+      </div>
+      <div class="pros-cons">
+        <div class="pros-card"><div class="pc-label">Potential Benefits</div><ul class="pc-list"><li>Free tuition programs dramatically reduce cost for students who use the transfer pathway</li><li>623 average enrollment gain demonstrates that access programs work when designed well</li><li>Statewide re-enrollment infrastructure creates support for non-traditional students who need guidance</li></ul></div>
+        <div class="cons-card"><div class="pc-label">Key Concerns</div><ul class="pc-list"><li>Transfer pathway requires more advance planning than direct admission — research and intentionality are non-optional</li><li>Credit transfer policies vary and can result in lost coursework if not researched carefully</li><li>Financial aid for transfer students is often less generous than for first-year students at four-year schools</li></ul></div>
+      </div>
+      <div class="sources-box">
+        <div class="sources-label">Key Articles This Week</div>
+        <ul class="sources-list"><li><a href="#" target="_blank">Higher Ed Dive — 'Community College Free Tuition Program Enrollment Gains' (Feb. 4, 2026)</a></li><li><a href="#" target="_blank">University Business — '5 Higher Education Predictions for 2026' (Jan. 2, 2026)</a></li><li><a href="#" target="_blank">Inside Higher Ed — Stop-Out Re-enrollment Initiative Coverage (Jan. 2026)</a></li></ul>
+      </div>
+    </div>
+    <aside class="article-sidebar">
+      <div class="sidebar-widget">
+        <div class="sw-title">✓ Action Checklist</div>
+        <ul class="checklist"><li><div class="check-box"></div>For students considering community college: research the specific guaranteed transfer requirements for your intended major — not just the institution</li><li><div class="check-box"></div>Verify credit transfer policies in your state before committing to a community college course sequence</li><li><div class="check-box"></div>Apply for financial aid at the community college level — many students don't realize they qualify</li></ul>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">→ Action Steps</div>
+        <ol class="action-steps-list"><li>Contact the transfer center (not just the general advising office) at any community college you're considering — they specialize in four-year pathway planning</li><li>Research your state's guaranteed transfer program: California (UC/CSU), Texas (Top 10%), Florida, Virginia all have structured programs with different requirements</li><li>Ask the four-year transfer target: what is the minimum GPA and course sequence required for admission to my intended major?</li></ol>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">❓ Questions to Ask</div>
+        <ul class="q-list"><li>'What is the guaranteed transfer arrangement between your community college and my intended four-year university?'</li><li>'Which specific courses count toward my intended major at the transfer institution?'</li><li>'What financial aid is available for transfer students specifically — separate from first-year aid pools?'</li></ul>
+      </div>
+      <div class="cta-box">
+        <div class="cta-title">Questions about your situation?</div>
+        <div class="cta-body">Dr. Hurwitz works with a limited number of families each year.</div>
+        <a href="https://www.hurwitzadmissions.com" class="cta-btn">Request a Consultation →</a>
+      </div>
+    </aside>
+  </div>
+</article>
+<div class="divider">— ✦ —</div><article class="topic-section" id="t03">
+  <div class="topic-number-row"><span class="topic-num">TOPIC 03</span><span class="topic-cat">State Funding / Florida</span></div>
+  <h2 class="topic-title">Florida's 12% Public University Tuition Hike Is Now Official — What Families Need to Recalculate</h2>
+  <p class="topic-deck">The Florida Board of Governors approved a 12% tuition increase at four-year institutions. Combined with the state's legislative climate around campus speech and curriculum, the Florida public university value proposition has materially changed.</p>
+  <div class="topic-rule"></div>
+  <div class="article-grid">
+    <div class="article-main">
+      <div class="topic-body"><p>The Florida Board of Governors voted 8-5 to approve a 12% tuition increase at four-year public universities and 9% at two-year colleges — effective for the upcoming academic year. The vote came as Florida universities also navigated ongoing legislative pressure on curriculum, DEI, and out-of-state enrollment.</p><p>The 12% increase is not isolated: it follows years of political intervention in Florida's public universities that has included administrative restructuring at New College (now functioning as a conservative model institution), restrictions on DEI programs, and curriculum oversight by politically appointed boards. The combination of higher cost and reduced institutional autonomy changes the Florida public university value proposition in ways that pure tuition data doesn't capture.</p><p>For families weighing Florida options: in-state Florida residents still receive exceptional value at UF and FSU even after the increase. Out-of-state families now face tuition levels that make private Florida institutions like the University of Miami and Rollins College genuinely competitive on net cost, and they warrant serious comparison.</p></div>
+      <div class="elite-spotlight">
+        <div class="spot-label">🎓 Elite Institution Spotlight</div>
+        <div class="spot-title">Florida Public vs. Florida Private: The Recalculated Comparison</div>
+        <div class="spot-items"><div class="spot-item"><div class="spot-school">UF vs. University of Miami</div><div class="spot-detail">UF in-state: still dramatically cheaper. UF out-of-state + 12% increase now approaching Miami's net cost for many families. Miami meets 100% of demonstrated need.</div></div><div class="spot-item"><div class="spot-school">FSU vs. Rollins College</div><div class="spot-detail">FSU in-state: still strong value. Out-of-state FSU now competes with Rollins on cost for middle-income families — and Rollins offers a more personal, smaller-school experience.</div></div><div class="spot-item"><div class="spot-school">UCF vs. Florida Southern College</div><div class="spot-detail">Large research university vs. small liberal arts. Net cost can favor private for merit-eligible students. UCF's scale advantage is in program breadth, not cost.</div></div><div class="spot-item"><div class="spot-school">Florida Public System</div><div class="spot-detail">Legislative pressure on DEI, curriculum, and governance is real and ongoing. Families should research each campus's specific environment, not just the system.</div></div></div>
+        <div class="spot-note">For Florida families: the right question is not 'public or private?' but 'which school — public or private — offers the best combination of program quality, net cost, campus culture, and institutional stability for my student?'</div>
+      </div>
+      <div class="take-box">
+        <div class="take-label">Dr. Hurwitz's Take</div>
+        <div class="take-text">Florida's tuition increase confirms what I have been telling families for two years: the assumption that Florida public universities represent a straightforward value proposition needs to be updated. For in-state families, the value remains — but the gap between in-state public and strong Florida private institutions has narrowed. For out-of-state families, the public cost is now high enough that private net cost often competes. Run the net price calculators before making any assumption.</div>
+      </div>
+      <div class="pros-cons">
+        <div class="pros-card"><div class="pc-label">Potential Benefits</div><ul class="pc-list"><li>In-state Florida residents still receive meaningful value at UF and FSU even after the increase</li><li>Tuition revenue may help stabilize institutions facing budget pressure from other sources</li><li>Florida's public university system remains academically strong and well-regarded in most fields</li></ul></div>
+        <div class="cons-card"><div class="pc-label">Key Concerns</div><ul class="pc-list"><li>12% increase accelerates the public-private cost convergence that is already underway nationally</li><li>Ongoing legislative intervention in curriculum and governance raises academic freedom concerns</li><li>Out-of-state families at Florida public universities now pay rates approaching many private school net costs</li></ul></div>
+      </div>
+      <div class="sources-box">
+        <div class="sources-label">Key Articles This Week</div>
+        <ul class="sources-list"><li><a href="#" target="_blank">Higher Ed Dive — 'Florida Board of Governors Approves 12% Tuition Increase' (Jan. 28, 2026)</a></li><li><a href="#" target="_blank">Expert Admissions — 'Florida Senate Failed to Pass Out-of-State Enrollment Cap Proposal' (March 20, 2026)</a></li><li><a href="#" target="_blank">CalMatters — Florida and California Higher Education Funding Comparison Coverage</a></li></ul>
+      </div>
+    </div>
+    <aside class="article-sidebar">
+      <div class="sidebar-widget">
+        <div class="sw-title">✓ Action Checklist</div>
+        <ul class="checklist"><li><div class="check-box"></div>Florida families: recalculate net cost at UF, FSU, and UCF with the 12% increase applied</li><li><div class="check-box"></div>Out-of-state families considering Florida: run net price calculators for University of Miami and Rollins before assuming state schools are cheaper</li><li><div class="check-box"></div>Ask Florida public universities: is the 12% increase reflected in your current net price calculator output?</li></ul>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">→ Action Steps</div>
+        <ol class="action-steps-list"><li>Use the UF, FSU, and UCF net price calculators directly — third-party databases may not yet reflect the 12% increase</li><li>Compare Florida public out-of-state costs against University of Miami, Rollins, Stetson, and Florida Southern net cost</li><li>For families with equity interests in Florida school districts: research how the out-of-state enrollment cap proposal (which failed) may be reintroduced in the future</li></ol>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">❓ Questions to Ask</div>
+        <ul class="q-list"><li>'Does your net price calculator reflect the newly approved tuition increase?'</li><li>'What is the projected tuition trajectory for the next four years based on current Board of Governors policy?'</li><li>'For out-of-state applicants: what percentage of your student body is out-of-state, and is that changing?'</li></ul>
+      </div>
+      <div class="cta-box">
+        <div class="cta-title">Questions about your situation?</div>
+        <div class="cta-body">Dr. Hurwitz works with a limited number of families each year.</div>
+        <a href="https://www.hurwitzadmissions.com" class="cta-btn">Request a Consultation →</a>
+      </div>
+    </aside>
+  </div>
+</article>
+<div class="divider">— ✦ —</div><article class="topic-section" id="t04">
+  <div class="topic-number-row"><span class="topic-num">TOPIC 04</span><span class="topic-cat">International Funding / Foreign Gifts</span></div>
+  <h2 class="topic-title">Foreign Gifts Under Federal Scrutiny: What $5 Billion in International Funding Means for Research Universities</h2>
+  <p class="topic-deck">NPR reported that colleges have disclosed more than $5 billion in foreign gifts and contracts, with Harvard, Carnegie Mellon, MIT, and Stanford among the largest recipients. New State Department oversight is creating institutional caution.</p>
+  <div class="topic-rule"></div>
+  <div class="article-grid">
+    <div class="article-main">
+      <div class="topic-body"><p>NPR reported in the week of February 16, 2026 that U.S. colleges collectively report more than $5 billion annually in foreign gifts and contracts, with the largest recipients including Harvard, Carnegie Mellon, MIT, and Stanford. The State Department has taken over enforcement of Section 117 foreign gift reporting requirements, with a new federal reporting portal launched in January 2026 that subjects gift reporting to greater scrutiny.</p><p>The practical institutional response has been caution: several research universities have voluntarily curtailed relationships with certain foreign entities in anticipation of investigation risk, even where the relationships were previously considered unproblematic. This affects primarily graduate program funding, research partnerships, and faculty hiring from foreign institutions.</p><p>For families, the foreign gifts story has two angles: first, it is contributing to the same institutional caution that is reducing international graduate enrollment; second, it creates potential instability in research partnerships that may affect undergraduate research opportunities at institutions where foreign partnerships fund significant laboratory work.</p></div>
+      
+      <div class="take-box">
+        <div class="take-label">Dr. Hurwitz's Take</div>
+        <div class="take-text">The foreign gifts scrutiny is primarily a graduate and research enterprise issue — it does not directly affect the undergraduate admissions or financial aid process. But it contributes to the broader institutional risk environment that is causing research universities to make conservative decisions about hiring, partnerships, and program investment. For research-track undergraduates, the indirect effects on research opportunity availability are worth asking about.</div>
+      </div>
+      <div class="pros-cons">
+        <div class="pros-card"><div class="pc-label">Potential Benefits</div><ul class="pc-list"><li>Greater transparency in foreign funding relationships is a legitimate accountability goal</li><li>Most foreign partnerships involve straightforward academic exchange that benefits students</li><li>State Department oversight may provide clearer guidance than the prior ad hoc enforcement environment</li></ul></div>
+        <div class="cons-card"><div class="pc-label">Key Concerns</div><ul class="pc-list"><li>Institutional caution in response to investigation risk is reducing beneficial research partnerships</li><li>Chilling effect on international faculty hiring affects the diversity and quality of research teams</li><li>Graduate program funding instability ripples into undergraduate research opportunity availability</li></ul></div>
+      </div>
+      <div class="sources-box">
+        <div class="sources-label">Key Articles This Week</div>
+        <ul class="sources-list"><li><a href="#" target="_blank">Higher Ed Dive — 'Week in Review: Foreign Gifts Coverage' (Feb. 16, 2026)</a></li><li><a href="#" target="_blank">NPR — Foreign Gifts and Contracts at U.S. Universities Reporting (Feb. 2026)</a></li><li><a href="#" target="_blank">Deloitte Insights — 2026 Higher Education Trends: Foreign Funding Scrutiny Section</a></li></ul>
+      </div>
+    </div>
+    <aside class="article-sidebar">
+      <div class="sidebar-widget">
+        <div class="sw-title">✓ Action Checklist</div>
+        <ul class="checklist"><li><div class="check-box"></div>For research-track students: ask whether any research partnerships at your target school have been curtailed due to foreign funding scrutiny</li><li><div class="check-box"></div>Research whether your intended lab or research center has international partnerships that are currently under review</li><li><div class="check-box"></div>Ask about international faculty availability in your intended field — visa and scrutiny issues may affect who is teaching</li></ul>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">→ Action Steps</div>
+        <ol class="action-steps-list"><li>Search your target university's research news for any foreign partnership changes in the past 12 months</li><li>For students interested in internationally collaborative research: ask specifically about current partnership status with institutions in China, Saudi Arabia, and other scrutiny-target countries</li><li>Ask admissions how institutional caution around foreign relationships has affected graduate program funding in your intended field</li></ol>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">❓ Questions to Ask</div>
+        <ul class="q-list"><li>'Have any research partnerships or funding relationships been curtailed due to foreign gift scrutiny?'</li><li>'Are there any international research partnerships that affect programs or labs in my intended field?'</li><li>'How has your institution responded to the new State Department foreign gift reporting requirements?'</li></ul>
+      </div>
+      <div class="cta-box">
+        <div class="cta-title">Questions about your situation?</div>
+        <div class="cta-body">Dr. Hurwitz works with a limited number of families each year.</div>
+        <a href="https://www.hurwitzadmissions.com" class="cta-btn">Request a Consultation →</a>
+      </div>
+    </aside>
+  </div>
+</article>
+<div class="divider">— ✦ —</div><article class="topic-section" id="t05">
+  <div class="topic-number-row"><span class="topic-num">TOPIC 05</span><span class="topic-cat">Endowment / Investment Returns</span></div>
+  <h2 class="topic-title">Strong Endowment Returns Look Good — But Don't Tell the Whole Story</h2>
+  <p class="topic-deck">Big university endowments averaged 8.2%–11.5% returns in FY2025. But with 8% endowment tax rates, mandatory spending drawdowns, and rising operating costs, the strong returns are already committed.</p>
+  <div class="topic-rule"></div>
+  <div class="article-grid">
+    <div class="article-main">
+      <div class="topic-body"><p>NACUBO-Commonfund's annual endowment study and TIFF Investment Management analysis found that big university endowments averaged 8.2% returns across the sector, with the largest endowments (over $1 billion) averaging 11.5% returns in FY2025. The strong performance numbers were widely reported as evidence of institutional financial health.</p><p>What the returns number alone doesn't capture: universities typically spend about 5% of investment earnings annually on operations. The new 8% endowment tax for top-tier schools consumes a meaningful additional portion of those earnings — plus the earnings themselves have to be realized through asset sales in an environment where universities prefer to hold long-term assets. Additionally, colleges also tapped their endowments at higher rates in FY2025, the NACUBO study found.</p><p>The practical result: strong endowment returns do not translate to financial flexibility if the returns are already committed to tax obligations, higher-than-historical spending drawdowns, and operating cost growth. Families should not read strong endowment returns as evidence of institutional financial ease.</p></div>
+      
+      <div class="take-box">
+        <div class="take-label">Dr. Hurwitz's Take</div>
+        <div class="take-text">Endowment returns are the higher education equivalent of a company's gross revenue — they look good but tell you little without the expense structure. The schools with the strongest financial positions in 2026 are those with large endowments, diversified revenue, manageable tax exposure, and demonstrated commitment to financial aid from specifically protected endowment funds. Ask your target school: what percentage of your endowment is 'restricted' to financial aid versus available for general operating use?</div>
+      </div>
+      <div class="pros-cons">
+        <div class="pros-card"><div class="pc-label">Potential Benefits</div><ul class="pc-list"><li>8.2%–11.5% returns provide real financial cushion for institutions managing multiple cost pressures</li><li>Strong endowments support need-blind and full-need-met commitments that protect student aid</li><li>Diversified investment portfolios reduce exposure to any single asset class volatility</li></ul></div>
+        <div class="cons-card"><div class="pc-label">Key Concerns</div><ul class="pc-list"><li>8% endowment tax at the top tier consumes a significant portion of otherwise available returns</li><li>Higher spending drawdown rates mean institutions are drawing down faster than ideal for long-term sustainability</li><li>Return volatility means strong FY2025 numbers don't guarantee FY2026 stability</li></ul></div>
+      </div>
+      <div class="sources-box">
+        <div class="sources-label">Key Articles This Week</div>
+        <ul class="sources-list"><li><a href="#" target="_blank">Higher Ed Dive — 'Big University Endowments Grew 11.5% in FY25, TIFF Says' (Nov. 2025)</a></li><li><a href="#" target="_blank">Higher Ed Dive — 'Colleges Also Tapped Their Endowments More in FY2025' (Feb. 12, 2026)</a></li><li><a href="#" target="_blank">NACUBO-Commonfund Study of Endowments — FY2025 Results</a></li></ul>
+      </div>
+    </div>
+    <aside class="article-sidebar">
+      <div class="sidebar-widget">
+        <div class="sw-title">✓ Action Checklist</div>
+        <ul class="checklist"><li><div class="check-box"></div>Ask your target school what percentage of endowment funds are restricted to financial aid purposes</li><li><div class="check-box"></div>For schools in the 4% or 8% endowment tax tier: ask how the tax obligation affects their annual financial aid budget</li><li><div class="check-box"></div>Research whether your target school has publicly committed to a specific financial aid spending level regardless of endowment performance</li></ul>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">→ Action Steps</div>
+        <ol class="action-steps-list"><li>Find your target school's endowment spending policy in their annual financial report — most are publicly available</li><li>Ask financial aid: 'Is your aid budget funded from restricted endowment funds that are specifically dedicated to aid, or from general operating funds?'</li><li>Compare financial aid commitment language across schools — 'meet 100% of demonstrated need' is meaningfully different from 'offer a competitive aid package'</li></ol>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">❓ Questions to Ask</div>
+        <ul class="q-list"><li>'What percentage of your endowment is restricted to financial aid purposes?'</li><li>'How is your endowment tax obligation affecting your financial aid budget for the coming year?'</li><li>'Is your institutional aid commitment guaranteed for four years regardless of endowment performance?'</li></ul>
+      </div>
+      <div class="cta-box">
+        <div class="cta-title">Questions about your situation?</div>
+        <div class="cta-body">Dr. Hurwitz works with a limited number of families each year.</div>
+        <a href="https://www.hurwitzadmissions.com" class="cta-btn">Request a Consultation →</a>
+      </div>
+    </aside>
+  </div>
+</article>
+<div class="divider">— ✦ —</div><article class="topic-section" id="t06">
+  <div class="topic-number-row"><span class="topic-num">TOPIC 06</span><span class="topic-cat">AAC&U Annual Conference / Leadership</span></div>
+  <h2 class="topic-title">What College Presidents Said at AAC&U — And What It Means for Campus Culture</h2>
+  <p class="topic-deck">The AAC&U annual conference produced clear signals from college leadership about where institutions are betting on differentiation: economic mobility, experiential learning, and AI integration — with strong disagreement on how to resist federal pressure.</p>
+  <div class="topic-rule"></div>
+  <div class="article-grid">
+    <div class="article-main">
+      <div class="topic-body"><p>The American Association of Colleges and Universities annual meeting produced two notable outputs this week. Higher Ed Dive's coverage of top takeaways for college presidents emphasized the diversity of institutional responses to federal pressure: some presidents have chosen engagement with the administration, others have chosen resistance, and many are attempting careful navigation between both.</p><p>A Public Agenda analysis examining how colleges tailor student support services to improve economic mobility found that institutions with the most success are those that have made economic mobility an explicit institutional mission — tracking outcomes, building employer relationships, and providing targeted advising for low-income students throughout their enrollment.</p><p>The AAC&U's own employer survey, 'The Agility Imperative,' found that employers increasingly need students with diverse experiential opportunities — co-ops, internships, project-based learning, and civic engagement — alongside traditional academic credentials. The survey found institutions are not keeping pace with employer expectations for experiential depth.</p></div>
+      
+      <div class="take-box">
+        <div class="take-label">Dr. Hurwitz's Take</div>
+        <div class="take-text">The AAC&U conference story matters to families because it maps where institutional energy is being directed. Colleges investing in economic mobility infrastructure, experiential learning, and transparent outcome tracking are the ones most likely to produce strong employment outcomes for their graduates. The colleges that are primarily managing political compliance are the ones most likely to be distracted from the educational mission. Ask admissions what their president's top institutional priorities are for the next three years — the answer tells you what will get institutional resources.</div>
+      </div>
+      <div class="pros-cons">
+        <div class="pros-card"><div class="pc-label">Potential Benefits</div><ul class="pc-list"><li>Growing focus on economic mobility creates more targeted support for students from lower-income backgrounds</li><li>Experiential learning expansion — co-ops, internships, project-based programs — improves employment outcomes</li><li>AAC&U framework for outcome accountability creates shared standards for measuring institutional effectiveness</li></ul></div>
+        <div class="cons-card"><div class="pc-label">Key Concerns</div><ul class="pc-list"><li>Political compliance demands are consuming institutional leadership attention that might otherwise go to educational quality</li><li>Division among college presidents on how to respond to federal pressure creates inconsistent institutional cultures</li><li>Employer expectations for experiential depth are growing faster than institutions' ability to respond</li></ul></div>
+      </div>
+      <div class="sources-box">
+        <div class="sources-label">Key Articles This Week</div>
+        <ul class="sources-list"><li><a href="#" target="_blank">Higher Ed Dive — 'Top Takeaways for College Presidents from AAC&U's Conference' (Feb. 3, 2026)</a></li><li><a href="#" target="_blank">Higher Ed Dive — 'How 3 College Leaders Work to Boost Economic Mobility' (Jan. 30, 2026)</a></li><li><a href="#" target="_blank">AAC&U — 'The Agility Imperative: 2025 Employer Survey' (2026)</a></li></ul>
+      </div>
+    </div>
+    <aside class="article-sidebar">
+      <div class="sidebar-widget">
+        <div class="sw-title">✓ Action Checklist</div>
+        <ul class="checklist"><li><div class="check-box"></div>Ask admissions what the president's stated top institutional priorities are for the coming year</li><li><div class="check-box"></div>Research whether your target school has explicit economic mobility outcome tracking and reporting</li><li><div class="check-box"></div>Ask about experiential learning requirements — which schools have co-op, internship, or capstone project requirements built into the degree?</li></ul>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">→ Action Steps</div>
+        <ol class="action-steps-list"><li>Find and read your target school's president's most recent 'State of the University' address — it reveals institutional priorities more honestly than marketing materials</li><li>Ask admissions to describe the most recent employer partnership or experiential learning initiative the school has launched</li><li>Research your target school's employment outcome data by major — some schools publish this; others you need to ask for</li></ol>
+      </div>
+      <div class="sidebar-widget">
+        <div class="sw-title">❓ Questions to Ask</div>
+        <ul class="q-list"><li>'What are your president's stated top three institutional priorities for the next academic year?'</li><li>'Does your institution track and publish employment outcomes by major?'</li><li>'What experiential learning opportunities — internships, co-ops, project-based learning — are built into my intended program?'</li></ul>
+      </div>
+      <div class="cta-box">
+        <div class="cta-title">Questions about your situation?</div>
+        <div class="cta-body">Dr. Hurwitz works with a limited number of families each year.</div>
+        <a href="https://www.hurwitzadmissions.com" class="cta-btn">Request a Consultation →</a>
+      </div>
+    </aside>
+  </div>
+</article>
+<div class="divider">— ✦ —</div></div><section class="gc-section" id="gc">
+  <div class="gc-label">Guidance Counselor Corner</div>
+  <h2 class="gc-title">What Every Counselor Should Know and Share This Week</h2>
+  <div class="gc-body"><p>This week counselors have three critical conversations to prepare for. First: the private loan qualification gap affects a large percentage of middle-income families who are building college plans around borrowing capacity they haven't verified. Encourage every family to pre-qualify during junior year — the conversation costs nothing and prevents April disasters.</p><p>The Florida 12% tuition increase requires an immediate update to any Florida family's financial planning. For in-state students, the value remains strong. For out-of-state students, the calculation now requires a direct comparison to strong Florida private institutions. Do not allow families to assume that public equals affordable in Florida without running current numbers.</p><p>The endowment returns story requires translation for families who may read strong returns as financial health. Help families understand the difference between endowment returns, spending policy, tax obligations, and specifically restricted financial aid funds. The question 'is your aid budget funded from restricted endowment funds?' is one every counselor should teach families to ask.</p></div>
+  <div class="gc-share">📤 <strong>Share this edition:</strong> Forward freely with attribution to <em>Higher Ed Insider</em>, Dr. Nathan Hurwitz. Subscribe at <a href="https://www.hurwitzadmissions.com">www.hurwitzadmissions.com</a> or email <a href="mailto:info@hurwitzadmissions.com">info@hurwitzadmissions.com</a>.</div>
+</section><section class="families-section" id="families">
+  <div class="section-label">What This Means For Families</div>
+  <h2 class="fam-headline">Your Action Guide — Edition 2026-09</h2>
+  <p class="fam-sub">Dr. Hurwitz's Analysis · January 26–February 1, 2026</p>
+  <p class="fam-intro">Financial planning clarity is this week's primary deliverable. Here are six actions that will prevent expensive surprises.</p>
+  <div class="fam-steps-grid"><div class="fam-step">
+      <div class="fam-step-num">1</div>
+      <div><div class="fam-step-title">Pre-qualify for private loans during junior year</div><div class="fam-step-body">Four in ten borrowers can't qualify for private loans. Discover this now — while you can still adjust your list — not in April when deposit deadlines have passed.</div></div>
+    </div><div class="fam-step">
+      <div class="fam-step-num">2</div>
+      <div><div class="fam-step-title">Recalculate Florida public university net costs with the 12% increase</div><div class="fam-step-body">The Florida Board of Governors' vote is final. Update your net price calculator results immediately. Out-of-state families: compare against University of Miami and Rollins before assuming state schools are cheaper.</div></div>
+    </div><div class="fam-step">
+      <div class="fam-step-num">3</div>
+      <div><div class="fam-step-title">Ask target schools about restricted endowment funds for aid</div><div class="fam-step-body">Strong endowment returns don't guarantee aid stability. Ask specifically whether your aid is funded from restricted endowment funds dedicated to financial aid, or from general operating budgets.</div></div>
+    </div><div class="fam-step">
+      <div class="fam-step-num">4</div>
+      <div><div class="fam-step-title">If community college is in the picture, research the transfer pathway now</div><div class="fam-step-body">The transfer pathway is being rebuilt with real institutional support. But it requires research and intentionality. Start with your state's guaranteed transfer program and then research specific major requirements.</div></div>
+    </div><div class="fam-step">
+      <div class="fam-step-num">5</div>
+      <div><div class="fam-step-title">Research target school presidential priorities</div><div class="fam-step-body">What the president of your target college is focused on tells you more about institutional direction than any ranking. Read their most recent address or interview.</div></div>
+    </div><div class="fam-step">
+      <div class="fam-step-num">6</div>
+      <div><div class="fam-step-title">For research-track students: ask about foreign partnership stability</div><div class="fam-step-body">Research partnerships are being curtailed in response to federal scrutiny. Ask specifically about the stability of international research relationships in your intended field.</div></div>
+    </div></div>
+  <div class="advisory"><p><strong>Dr. Hurwitz's Bottom Line:</strong> Financial planning assumptions built in 2023 or earlier need to be updated this week. The private loan gap, the Florida tuition increase, the endowment tax implications, and the Grad PLUS elimination are all in effect or imminent. The families who adjust their planning to the current reality will make better decisions than those still using old math.</p></div>
+</section><div class="footer-cta">
+  <div>
+    <div class="fcta-head">Ready to build your family's personalized college strategy?</div>
+    <div class="fcta-sub">Dr. Hurwitz works with a limited number of families each year. Consultations fill early.</div>
+  </div>
+  <a href="https://www.hurwitzadmissions.com" class="fcta-btn">Request a Consultation →</a>
+</div>
+<footer class="footer">
+  <div class="footer-brand">Higher Ed Insider</div>
+  <div class="footer-copy">© 2026 Hurwitz Consulting. All rights reserved.<br>Edition 2026-09 · January 26–February 1, 2026 · Vol. I, Issue 9</div>
+  <div class="footer-contact">Dr. Nathan Hurwitz | College Admissions Consultant<br>
+    <a href="tel:2036139262">(203) 613-9262</a> · <a href="mailto:info@hurwitzadmissions.com">info@hurwitzadmissions.com</a> · <a href="https://www.hurwitzadmissions.com">www.hurwitzadmissions.com</a>
+  </div>
+</footer></div></body></html>
