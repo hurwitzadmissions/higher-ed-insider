@@ -1,0 +1,1 @@
+Every week I do a deep dive into the top six to eight stories in the area of higher education of potential interest to parents.  A detailed analysis of top articles, gives you a clear idea of how these trends will effect you.  Subscribe to receive this newsletter weekly. 
