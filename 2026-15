@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Higher Ed Insider — Edition 2026-15</title>
+</head>
+<body style="margin:0;padding:0;background-color:#f0ece4;font-family:Arial,Helvetica,sans-serif;">
+
+<!-- ==================== MASTHEAD TOP BAR ==================== -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#ffffff;border-bottom:3px solid #c9963a;">
+  <tr>
+    <td align="center" style="padding:8px 20px;">
+      <span style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#555555;letter-spacing:2px;text-transform:uppercase;">Intelligence for Families Navigating College Admissions</span>
+    </td>
+  </tr>
+</table>
+
+<!-- ==================== MASTHEAD MAIN ==================== -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0a1628;">
+  <tr>
+    <td align="center" style="padding:36px 20px 28px 20px;">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td align="center">
+            <div style="display:inline-block;width:52px;height:52px;background-color:#c9963a;border-radius:50%;text-align:center;line-height:52px;margin-bottom:14px;">
+              <span style="font-family:Georgia,'Times New Roman',serif;font-size:22px;font-weight:bold;color:#0a1628;">NH</span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <h1 style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:38px;font-weight:bold;color:#ffffff;letter-spacing:1px;">HIGHER ED INSIDER</h1>
+            <p style="margin:6px 0 0 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#c9963a;letter-spacing:3px;text-transform:uppercase;">By Dr. Nathan Hurwitz · Hurwitz Consulting</p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<!-- ==================== GOLD RULE ==================== -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr><td style="background-color:#c9963a;height:3px;font-size:0;line-height:0;">&nbsp;</td></tr>
+</table>
+
+<!-- ==================== SUB-BAR ==================== -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#132040;">
+  <tr>
+    <td align="center" style="padding:10px 20px;">
+      <span style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#c9963a;letter-spacing:1px;">EDITION 2026-15 &nbsp;·&nbsp; APRIL 7–11, 2026 &nbsp;·&nbsp; © 2026 HURWITZ CONSULTING</span>
+    </td>
+  </tr>
+</table>
+
+<!-- ==================== CONTACT STRIP ==================== -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0a1628;">
+  <tr>
+    <td align="center" style="padding:8px 20px;">
+      <span style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#aaaaaa;">
+        <a href="https://www.hurwitzadmissions.com" style="color:#c9963a;text-decoration:none;">www.hurwitzadmissions.com</a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="mailto:nathan@hurwitzadmissions.com" style="color:#c9963a;text-decoration:none;">nathan@hurwitzadmissions.com</a>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        (203) 613-9262
+      </span>
+    </td>
+  </tr>
+</table>
+
+<!-- ==================== BY THE NUMBERS ==================== -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#c9963a;">
+  <tr>
+    <td style="padding:20px 20px 10px 20px;">
+      <p style="margin:0 0 12px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#0a1628;letter-spacing:2px;text-align:center;text-transform:uppercase;">By the Numbers — Edition 2026-15</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:0 20px 20px 20px;">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td width="33%" style="text-align:center;padding:8px 4px;">
+            <p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:26px;font-weight:bold;color:#0a1628;">$2.6B</p>
+            <p style="margin:4px 0 0 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;color:#0a1628;">DOJ seeks Harvard repayment</p>
+          </td>
+          <td width="33%" style="text-align:center;padding:8px 4px;">
+            <p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:26px;font-weight:bold;color:#0a1628;">17%</p>
+            <p style="margin:4px 0 0 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;color:#0a1628;">Drop in new intl. enrollment</p>
+          </td>
+          <td width="33%" style="text-align:center;padding:8px 4px;">
+            <p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:26px;font-weight:bold;color:#0a1628;">93</p>
+            <p style="margin:4px 0 0 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;color:#0a1628;">Programs cut at Syracuse</p>
+          </td>
+        </tr>
+        <tr>
+          <td width="33%" style="text-align:center;padding:8px 4px;">
+            <p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:26px;font-weight:bold;color:#0a1628;">17</p>
+            <p style="margin:4px 0 0 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;color:#0a1628;">States block admissions data demand</p>
+          </td>
+          <td width="33%" style="text-align:center;padding:8px 4px;">
+            <p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:26px;font-weight:bold;color:#0a1628;">$7B</p>
+            <p style="margin:4px 0 0 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;color:#0a1628;">Estimated econ. loss from intl. decline</p>
+          </td>
+          <td width="33%" style="text-align:center;padding:8px 4px;">
+            <p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:26px;font-weight:bold;color:#0a1628;">222K</p>
+            <p style="margin:4px 0 0 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;color:#0a1628;">Entities facing GSA DEI certification</p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<!-- ==================== EDITOR'S NOTE ==================== -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0d2137;border-bottom:3px solid #c9963a;">
+  <tr>
+    <td style="padding:28px 28px 24px 28px;">
+      <p style="margin:0 0 12px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">Editor's Note</p>
+      <p style="margin:0 0 14px 0;font-family:Georgia,'Times New Roman',serif;font-size:18px;font-weight:bold;color:#ffffff;">Dear Parents and Guidance Counselors,</p>
+      <p style="margin:0 0 12px 0;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:normal;line-height:1.85;">This week's edition arrives at what I can only describe as a turning point in American higher education's relationship with the federal government. The Trump administration has escalated on three simultaneous fronts — a sweeping DOJ lawsuit demanding Harvard repay more than $2.6 billion in grant money, a new executive order requiring federal contractors to certify they've eliminated "racially discriminatory DEI activities" by April 25, and a court-blocked attempt to force colleges to hand over seven years of retroactive admissions data by race and sex. The courts are pushing back. But the pressure is relentless.</p>
+      <p style="margin:0 0 12px 0;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:normal;line-height:1.85;">For families in the thick of college decisions — May 1 is just three weeks away — these headlines may feel abstract. They are not. The policies driving this moment are directly reshaping how selective institutions approach admissions, financial aid, faculty hiring, and even which academic programs survive. The Syracuse University story this week is a preview of what's coming nationally: universities are beginning to make hard choices about which fields of study survive the enrollment cliff and the funding drought.</p>
+      <p style="margin:0 0 12px 0;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:normal;line-height:1.85;">As always, my goal is to give you the analysis you need to make confident decisions — not just headlines, but context. Read carefully this week. There is a great deal here that matters directly to your family's planning.</p>
+      <p style="margin:0;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:normal;line-height:1.6;">— Dr. Nathan Hurwitz<br>
+      <em>College Admissions Consultant · Hurwitz Consulting · (203) 613-9262</em></p>
+    </td>
+  </tr>
+</table>
+
+<!-- ==================== THIS WEEK'S COVERAGE ==================== -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#132040;">
+  <tr>
+    <td style="padding:22px 28px;">
+      <p style="margin:0 0 10px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">This Week's Coverage</p>
+      <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#ffffff;line-height:1.7;">
+        <strong style="color:#c9963a;">Topic 01 · Federal Policy</strong>&nbsp;&nbsp; DOJ Sues Harvard to Recoup $2.6B in Federal Grants<br>
+        <strong style="color:#c9963a;">Topic 02 · Legal</strong>&nbsp;&nbsp; Judge Blocks Admissions Data Mandate for 17 States<br>
+        <strong style="color:#c9963a;">Topic 03 · Policy</strong>&nbsp;&nbsp; GSA's Anti-DEI Certification: A New Compliance Trap<br>
+        <strong style="color:#c9963a;">Topic 04 · Enrollment</strong>&nbsp;&nbsp; International Student Crisis Deepens — 17% Decline, $7B at Stake<br>
+        <strong style="color:#c9963a;">Topic 05 · Institutional</strong>&nbsp;&nbsp; Syracuse Cuts 93 Programs: The Portfolio Reckoning Arrives
+      </p>
+    </td>
+  </tr>
+</table>
+
+<!-- ==================== STORY 1 ==================== -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#faf8f4;">
+  <tr>
+    <td style="padding:32px 28px 28px 28px;">
+
+      <!-- Label -->
+      <p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">TOPIC 01 &nbsp;·&nbsp; Federal Policy</p>
+
+      <!-- Headline -->
+      <h2 style="margin:0 0 8px 0;font-family:Georgia,'Times New Roman',serif;font-size:22px;font-weight:bold;color:#0a1628;line-height:1.3;">DOJ Sues Harvard to Recoup $2.6 Billion — and Cut Off Future Grants</h2>
+
+      <!-- Deck -->
+      <p style="margin:0 0 14px 0;font-family:Georgia,'Times New Roman',serif;font-size:15px;font-style:italic;color:#555555;line-height:1.5;">After months of stalled settlement talks, the Trump administration filed suit to force Harvard to repay all federal funding received while allegedly out of civil rights compliance — and bar the university from future grants.</p>
+
+      <!-- Gold rule -->
+      <table cellpadding="0" cellspacing="0" border="0" style="margin-bottom:16px;">
+        <tr><td style="background-color:#c9963a;height:2px;width:50px;font-size:0;line-height:0;">&nbsp;</td></tr>
+      </table>
+
+      <!-- Body -->
+      <p style="margin:0 0 12px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#333333;line-height:1.85;">The Justice Department filed suit against Harvard University in late March 2026, accusing the institution of violating Title VI of the Civil Rights Act by being "deliberately indifferent" to harassment of Jewish and Israeli students. The complaint asks a federal judge to require Harvard to repay all grant money received while out of compliance — a figure that could exceed $2.6 billion in existing grants alone — and to bar the university from receiving future federal funding. The lawsuit came after months of on-again, off-again settlement negotiations that ultimately collapsed.</p>
+      <p style="margin:0 0 12px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#333333;line-height:1.85;">The administration claims negotiators were "close" to a deal before Harvard went silent. Harvard has called the litigation "yet another pretextual and retaliatory action" for refusing to cede control of its academic governance. The administration had previously demanded a direct cash settlement of as much as $1 billion; Harvard refused any deal requiring direct payment to the government, instead offering a workforce development agreement. Those talks collapsed when the White House rejected the proposal as "wholly inadequate." Meanwhile, Columbia University paid a $200 million settlement, Brown University agreed to $50 million in grants to Rhode Island organizations, and Cornell settled for $30 million — but Harvard has declined to follow.</p>
+      <p style="margin:0 0 16px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#333333;line-height:1.85;">A federal judge had previously ruled the administration's $2.2 billion funding freeze was unlawful retaliation and ordered the funds restored. The government is appealing that decision. The case is now headed toward the 1st U.S. Circuit Court of Appeals, stacked with Democratic appointees, and may ultimately reach the Supreme Court. The DOJ argues the government has "wide discretion" to cancel grants for policy reasons; Harvard's lawyers counter that the targeted cuts have virtually nothing to do with antisemitism and everything to do with political retaliation.</p>
+
+      <!-- Elite Spotlight -->
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0a1628;border-left:4px solid #c9963a;margin-bottom:16px;">
+        <tr>
+          <td style="padding:16px 18px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">Elite Spotlight</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#ffffff;line-height:1.7;">Harvard is the only major research university that has actively sued the Trump administration over funding and enrollment restrictions — and won injunctions on both counts. Columbia, Penn, and Brown all reached settlements rather than litigate. Harvard President Alan Garber has pledged to fight antisemitism but insists no government "should dictate what private universities can teach, whom they can admit and hire." The university has begun self-funding some research projects, but warns it cannot absorb the full cost of federal cuts over the long term.</p>
+          </td>
+        </tr>
+      </table>
+
+      <!-- Dr. Hurwitz's Take -->
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f2ede3;border-left:4px solid #0a1628;margin-bottom:16px;">
+        <tr>
+          <td style="padding:16px 18px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#0a1628;letter-spacing:2px;text-transform:uppercase;">DR. HURWITZ'S TAKE</p>
+            <p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:14px;color:#333333;font-style:italic;line-height:1.8;">This is the most consequential case in American higher education in a generation. Whether or not Harvard ultimately prevails, the lawsuit will send shockwaves through every admissions office in the country. Applicants to Harvard and peer institutions should understand that this legal battle is directly shaping how those schools approach everything from campus speech policies to faculty governance — and by extension, the culture a student will enter. If you're deciding between a flagshp public university and a highly selective private institution right now, this political and legal climate is a legitimate factor in your calculus. Document today's landscape. The May 1 deadline will come and go, but this legal saga will not be resolved for years.</p>
+          </td>
+        </tr>
+      </table>
+
+      <!-- Pros / Cons -->
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:16px;">
+        <tr>
+          <td width="49%" valign="top" style="background-color:#f0faf5;border-top:3px solid #2a7a4f;padding:14px 16px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#2a7a4f;letter-spacing:1px;text-transform:uppercase;">For Students / Families</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#333333;line-height:1.7;">Courts continue to push back on the most aggressive federal overreach. Research funding that supports cutting-edge programs may be restored. Harvard's resistance may preserve academic freedom norms sector-wide.</p>
+          </td>
+          <td width="2%">&nbsp;</td>
+          <td width="49%" valign="top" style="background-color:#fdf4f3;border-top:3px solid #c23b2a;padding:14px 16px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c23b2a;letter-spacing:1px;text-transform:uppercase;">Risks / Watch</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#333333;line-height:1.7;">Prolonged litigation freezes research hiring and labs — affecting graduate students and postdocs most. Settlement pressure may push Harvard to concessions that reshape admissions or campus policy before courts rule.</p>
+          </td>
+        </tr>
+      </table>
+
+      <!-- Action Checklist -->
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0a1628;margin-bottom:16px;">
+        <tr>
+          <td style="padding:16px 18px;">
+            <p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">✓ Action Checklist</p>
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#ffffff;line-height:1.6;">✓ If Harvard is on your list: factor in the current climate around campus culture, protest policy, and governance when deciding</p>
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#ffffff;line-height:1.6;">✓ Watch the 1st Circuit appeal timeline — a ruling before fall could alter institutional behavior at Ivies broadly</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#ffffff;line-height:1.6;">✓ Ask your college's admissions office how federal compliance pressures are affecting application review this cycle</p>
+          </td>
+        </tr>
+      </table>
+
+      <!-- Key Sources -->
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0a1628;">
+        <tr>
+          <td style="padding:12px 18px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">Key Sources</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#aaaaaa;line-height:1.8;">
+              <a href="https://www.highereddive.com/news/doj-sues-harvard-in-bid-to-recoup-federal-grants-cut-off-future-access/815372/" style="color:#c9963a;text-decoration:none;">Higher Ed Dive — DOJ Sues Harvard</a> &nbsp;·&nbsp;
+              <a href="https://www.cnn.com/2026/03/20/politics/trump-administration-sues-harvard-alleging-school-didnt-protect-jewish-students" style="color:#c9963a;text-decoration:none;">CNN — Harvard Suit Filing</a> &nbsp;·&nbsp;
+              <a href="https://www.insidehighered.com/news/government/courts/2026/04/03/lawsuits-against-trump-pile-strategies-shift" style="color:#c9963a;text-decoration:none;">Inside Higher Ed — Litigation Trends</a>
+            </p>
+          </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
+
+<!-- DIVIDER -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#faf8f4;">
+  <tr><td align="center" style="padding:10px 0;font-family:Georgia,'Times New Roman',serif;font-size:18px;color:#c9963a;">✦</td></tr>
+</table>
+
+<!-- ==================== STORY 2 ==================== -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#faf8f4;">
+  <tr>
+    <td style="padding:28px 28px;">
+
+      <p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">TOPIC 02 &nbsp;·&nbsp; Legal</p>
+      <h2 style="margin:0 0 8px 0;font-family:Georgia,'Times New Roman',serif;font-size:22px;font-weight:bold;color:#0a1628;line-height:1.3;">Judge Blocks Federal Admissions Data Mandate — Calling It "Rushed and Chaotic"</h2>
+      <p style="margin:0 0 14px 0;font-family:Georgia,'Times New Roman',serif;font-size:15px;font-style:italic;color:#555555;line-height:1.5;">A federal court halted the Education Department's demand for seven years of student-level admissions data broken down by race, sex, GPA, and test scores — a move that critics called an unprecedented invasion of student privacy.</p>
+
+      <table cellpadding="0" cellspacing="0" border="0" style="margin-bottom:16px;">
+        <tr><td style="background-color:#c9963a;height:2px;width:50px;font-size:0;line-height:0;">&nbsp;</td></tr>
+      </table>
+
+      <p style="margin:0 0 12px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#333333;line-height:1.85;">On April 4, 2026, U.S. District Judge F. Dennis Saylor IV in Boston issued a preliminary injunction blocking the Trump administration from enforcing its new admissions data reporting requirement against public universities in 17 states. The mandate, created via an expansion of the Integrated Postsecondary Education Data System survey, required colleges to report student-level admissions data — disaggregated by race, sex, GPA, and test scores — retroactively for the past seven years. The original deadline was March 18; the court had already blocked it twice before issuing the full injunction.</p>
+      <p style="margin:0 0 12px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#333333;line-height:1.85;">Judge Saylor found that while the Education Department likely has the statutory authority to collect such data, the rollout violated the Administrative Procedure Act because the administration's 120-day deadline — imposed directly by President Trump — left no meaningful time for notice-and-comment engagement with institutions. The judge also raised concerns about the gutted National Center for Education Statistics, noting that the agency "never even acknowledged the existence of the staff reductions, much less explain how its reduced staff will be able to keep up with an increased workload." A coalition of private college associations also asked to join the litigation, and a separate temporary restraining order was issued for members of the Association of American Universities through April 14.</p>
+      <p style="margin:0 0 16px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#333333;line-height:1.85;">The administration framed the data collection as necessary to enforce the Supreme Court's 2023 ruling striking down affirmative action, arguing that universities have been using "hidden racial proxies" in admissions. Secretary of Education Linda McMahon said the data would "allow Americans to ensure race-based preferences are not used." Critics countered that the retroactive, student-level scope of the demand went far beyond any reasonable enforcement mechanism and risked identifying individual students by race in ways that could be weaponized in future investigations.</p>
+
+      <!-- Data Table -->
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0a1628;border-left:4px solid #c9963a;margin-bottom:16px;">
+        <tr>
+          <td style="padding:16px 18px;">
+            <p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">Case Timeline</p>
+            <p style="margin:0 0 4px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#ffffff;line-height:1.7;"><strong style="color:#c9963a;">Aug. 2025:</strong> Trump memo directs Ed Dept to begin collecting new admissions data</p>
+            <p style="margin:0 0 4px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#ffffff;line-height:1.7;"><strong style="color:#c9963a;">Dec. 2025:</strong> NCES survey opens; major changes made through Jan.–Feb. 2026</p>
+            <p style="margin:0 0 4px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#ffffff;line-height:1.7;"><strong style="color:#c9963a;">Mar. 13:</strong> Judge Saylor issues first TRO blocking March 18 deadline</p>
+            <p style="margin:0 0 4px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#ffffff;line-height:1.7;"><strong style="color:#c9963a;">Mar. 31:</strong> Separate TRO for AAU/AICUM members through April 14</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#ffffff;line-height:1.7;"><strong style="color:#c9963a;">Apr. 4:</strong> Preliminary injunction issued for 17 plaintiff states</p>
+          </td>
+        </tr>
+      </table>
+
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f2ede3;border-left:4px solid #0a1628;margin-bottom:16px;">
+        <tr>
+          <td style="padding:16px 18px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#0a1628;letter-spacing:2px;text-transform:uppercase;">DR. HURWITZ'S TAKE</p>
+            <p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:14px;color:#333333;font-style:italic;line-height:1.8;">This is not just a privacy story — it's an admissions story. The data the administration is seeking would allow federal investigators to scrutinize applicant pools institution by institution, looking for any statistical signature that might suggest race-conscious decision-making. Even if a college is fully compliant with the 2023 Supreme Court ruling, the threat of investigation based on demographic patterns could cause schools to preemptively alter how they recruit, how they flag first-generation students, and how they balance geographic diversity. For your student applying this fall, the downstream effects on holistic admissions are real. Institutions facing potential data audits may quietly become more conservative in every dimension of review.</p>
+          </td>
+        </tr>
+      </table>
+
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:16px;">
+        <tr>
+          <td width="49%" valign="top" style="background-color:#f0faf5;border-top:3px solid #2a7a4f;padding:14px 16px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#2a7a4f;letter-spacing:1px;text-transform:uppercase;">For Students / Families</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#333333;line-height:1.7;">Injunction protects student privacy for now. Colleges in 17 states have breathing room to respond carefully. Admissions processes continue without sudden government-compelled transparency overhaul.</p>
+          </td>
+          <td width="2%">&nbsp;</td>
+          <td width="49%" valign="top" style="background-color:#fdf4f3;border-top:3px solid #c23b2a;padding:14px 16px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c23b2a;letter-spacing:1px;text-transform:uppercase;">Risks / Watch</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#333333;line-height:1.7;">The injunction is preliminary. If the appeals court or Supreme Court allows data collection to proceed, institutions could face rapid compliance demands. Chilling effect on holistic admissions already underway at many schools.</p>
+          </td>
+        </tr>
+      </table>
+
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0a1628;margin-bottom:16px;">
+        <tr>
+          <td style="padding:16px 18px;">
+            <p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">✓ Action Checklist</p>
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#ffffff;line-height:1.6;">✓ For students in states not covered by the injunction: ask your target schools directly about their compliance posture</p>
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#ffffff;line-height:1.6;">✓ Understand that "holistic review" may be evolving in ways schools won't advertise — ask about what factors matter most this cycle</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#ffffff;line-height:1.6;">✓ Monitor the April 13 hearing for the AAU/AICUM request to join litigation — broader protection may follow</p>
+          </td>
+        </tr>
+      </table>
+
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0a1628;">
+        <tr>
+          <td style="padding:12px 18px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">Key Sources</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#aaaaaa;line-height:1.8;">
+              <a href="https://www.highereddive.com/news/court-blocks-education-departments-data-demands-for-17-states-colleges/816766/" style="color:#c9963a;text-decoration:none;">Higher Ed Dive — Court Blocks Data Demand</a> &nbsp;·&nbsp;
+              <a href="https://www.vpm.org/npr-news/npr-news/2026-04-04/judge-halts-trump-effort-requiring-colleges-to-show-they-dont-consider-race-in-admissions" style="color:#c9963a;text-decoration:none;">NPR/VPM — Injunction Ruling</a> &nbsp;·&nbsp;
+              <a href="https://www.staradvertiser.com/2026/04/04/breaking-news/feds-cant-make-colleges-provide-race-related-data-judge-rules/" style="color:#c9963a;text-decoration:none;">AP — Judge Ruling Detail</a>
+            </p>
+          </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
+
+<!-- DIVIDER -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#faf8f4;">
+  <tr><td align="center" style="padding:10px 0;font-family:Georgia,'Times New Roman',serif;font-size:18px;color:#c9963a;">✦</td></tr>
+</table>
+
+<!-- ==================== STORY 3 ==================== -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#faf8f4;">
+  <tr>
+    <td style="padding:28px 28px;">
+
+      <p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">TOPIC 03 &nbsp;·&nbsp; Policy</p>
+      <h2 style="margin:0 0 8px 0;font-family:Georgia,'Times New Roman',serif;font-size:22px;font-weight:bold;color:#0a1628;line-height:1.3;">The GSA Anti-DEI Certification: Sign This Pledge — or Lose Federal Funding</h2>
+      <p style="margin:0 0 14px 0;font-family:Georgia,'Times New Roman',serif;font-size:15px;font-style:italic;color:#555555;line-height:1.5;">A new executive order and a proposed GSA certification would require all federal funding recipients — including 222,000+ colleges and nonprofits — to certify they're not engaged in "racially discriminatory DEI activities," with False Claims Act liability for any misstep.</p>
+
+      <table cellpadding="0" cellspacing="0" border="0" style="margin-bottom:16px;">
+        <tr><td style="background-color:#c9963a;height:2px;width:50px;font-size:0;line-height:0;">&nbsp;</td></tr>
+      </table>
+
+      <p style="margin:0 0 12px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#333333;line-height:1.85;">On March 26, 2026, President Trump signed an executive order titled "Addressing DEI Discrimination by Federal Contractors," requiring all federal agencies to insert a new clause into their contracts by April 25. That clause obligates colleges and other contractors to certify they will not engage in "racially discriminatory DEI activities" — a term defined to include racially disparate hiring, promotion, and employment decisions. Violations could trigger contract cancellation, audits, and prosecution under the False Claims Act. A parallel General Services Administration proposal would extend similar certification requirements to the 222,760 entities that receive federal financial assistance, including grants and loans.</p>
+      <p style="margin:0 0 12px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#333333;line-height:1.85;">More than two dozen higher education associations, led by the American Council on Education, have urged the GSA to rescind the proposal. ACE President Ted Mitchell argued that the certification goes "well beyond settled law, requiring endorsement of legal interpretations that are the subject of current federal litigation and have not yet been resolved by the courts." Critics also noted that the proposed language could classify gender-affirming bathrooms, identity-based study lounges, and race-based scholarships as civil rights violations — even those that are currently legal. A coalition of 23 Democratic attorneys general filed formal comments calling the proposal unlawful.</p>
+      <p style="margin:0 0 16px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#333333;line-height:1.85;">The Association of American Universities warned in public comments that the False Claims Act exposure is "not marginal or hypothetical; it is real and potentially existential." Any college that certifies in good faith but later operates a program the government retroactively deems a DEI violation could face liability for every federal payment made during the certification period. Higher ed groups are monitoring litigation closely, as courts have blocked earlier iterations of the administration's anti-DEI enforcement in the education sector.</p>
+
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0a1628;border-left:4px solid #c9963a;margin-bottom:16px;">
+        <tr>
+          <td style="padding:16px 18px;">
+            <p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">What's At Stake: Key Dates</p>
+            <p style="margin:0 0 4px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#ffffff;line-height:1.7;"><strong style="color:#c9963a;">April 25, 2026:</strong> Agencies must insert DEI anti-discrimination clause in all new contracts</p>
+            <p style="margin:0 0 4px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#ffffff;line-height:1.7;"><strong style="color:#c9963a;">July 24, 2026:</strong> Agency heads must report on implementation to White House domestic policy staff</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#ffffff;line-height:1.7;"><strong style="color:#c9963a;">Pending:</strong> GSA SAM.gov certification — comment period closed March 30, final rule expected</p>
+          </td>
+        </tr>
+      </table>
+
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f2ede3;border-left:4px solid #0a1628;margin-bottom:16px;">
+        <tr>
+          <td style="padding:16px 18px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#0a1628;letter-spacing:2px;text-transform:uppercase;">DR. HURWITZ'S TAKE</p>
+            <p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:14px;color:#333333;font-style:italic;line-height:1.8;">For families, the practical translation of this policy is this: programs, scholarships, and support services that have served first-generation and underrepresented students for decades are under direct legal threat. Colleges are already quietly reviewing which offerings might create compliance exposure, and some will eliminate them proactively rather than risk federal investigations. The students most affected will be those who benefited most from those programs. If your student is a first-generation college student, or is depending on identity-based scholarships or mentorship programs, I strongly encourage you to verify availability for fall 2026 directly with financial aid and student services offices — do not assume last year's programs still exist.</p>
+          </td>
+        </tr>
+      </table>
+
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:16px;">
+        <tr>
+          <td width="49%" valign="top" style="background-color:#f0faf5;border-top:3px solid #2a7a4f;padding:14px 16px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#2a7a4f;letter-spacing:1px;text-transform:uppercase;">For Students / Families</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#333333;line-height:1.7;">Courts have repeatedly blocked earlier DEI enforcement attempts in education. Litigation is likely and may delay or dilute the certification requirement's impact on grant recipients substantially.</p>
+          </td>
+          <td width="2%">&nbsp;</td>
+          <td width="49%" valign="top" style="background-color:#fdf4f3;border-top:3px solid #c23b2a;padding:14px 16px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c23b2a;letter-spacing:1px;text-transform:uppercase;">Risks / Watch</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#333333;line-height:1.7;">Federal contract clause takes effect April 25 regardless of litigation. Colleges receiving federal contracts — including virtually every major research university — face immediate compliance decisions. First-generation programs are most at risk.</p>
+          </td>
+        </tr>
+      </table>
+
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0a1628;margin-bottom:16px;">
+        <tr>
+          <td style="padding:16px 18px;">
+            <p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">✓ Action Checklist</p>
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#ffffff;line-height:1.6;">✓ Contact financial aid offices now to confirm which scholarships and support programs your student has been offered remain available for fall 2026</p>
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#ffffff;line-height:1.6;">✓ Research each college's public stance on DEI compliance — schools that have already reached federal settlements (Columbia, Brown, Cornell) may be most affected</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#ffffff;line-height:1.6;">✓ Track the April 25 contract clause deadline: any disruptions to campus programs may accelerate after that date</p>
+          </td>
+        </tr>
+      </table>
+
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0a1628;">
+        <tr>
+          <td style="padding:12px 18px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">Key Sources</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#aaaaaa;line-height:1.8;">
+              <a href="https://www.highereddive.com/news/higher-ed-groups-urge-gsa-rescind-anti-dei-certification-proposal/816280/" style="color:#c9963a;text-decoration:none;">Higher Ed Dive — Higher Ed Groups vs. GSA</a> &nbsp;·&nbsp;
+              <a href="https://www.insidehighered.com/news/diversity/2026/04/01/higher-ed-denounces-gsas-proposed-federal-funding-strings" style="color:#c9963a;text-decoration:none;">Inside Higher Ed — DEI Certification Analysis</a> &nbsp;·&nbsp;
+              <a href="https://www.highereddive.com/news/trump-executive-order-federal-contractors-dei-canceled-contracts/816117/" style="color:#c9963a;text-decoration:none;">Higher Ed Dive — DEI Executive Order</a>
+            </p>
+          </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
+
+<!-- DIVIDER -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#faf8f4;">
+  <tr><td align="center" style="padding:10px 0;font-family:Georgia,'Times New Roman',serif;font-size:18px;color:#c9963a;">✦</td></tr>
+</table>
+
+<!-- ==================== STORY 4 ==================== -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#faf8f4;">
+  <tr>
+    <td style="padding:28px 28px;">
+
+      <p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">TOPIC 04 &nbsp;·&nbsp; Enrollment</p>
+      <h2 style="margin:0 0 8px 0;font-family:Georgia,'Times New Roman',serif;font-size:22px;font-weight:bold;color:#0a1628;line-height:1.3;">International Student Crisis Deepens: 17% Drop in New Enrollment, $7 Billion in Lost Revenue</h2>
+      <p style="margin:0 0 14px 0;font-family:Georgia,'Times New Roman',serif;font-size:15px;font-style:italic;color:#555555;line-height:1.5;">Visa restrictions, social media vetting, a 36% decline in F-1 visa issuances, and a climate of fear have combined to produce the steepest decline in new international student enrollment since records were kept — with ripple effects that will reshape tuition models at hundreds of universities.</p>
+
+      <table cellpadding="0" cellspacing="0" border="0" style="margin-bottom:16px;">
+        <tr><td style="background-color:#c9963a;height:2px;width:50px;font-size:0;line-height:0;">&nbsp;</td></tr>
+      </table>
+
+      <p style="margin:0 0 12px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#333333;line-height:1.85;">New international student enrollment in the United States fell 17% for fall 2025, according to data from the Institute of International Education — the first annual decline after four consecutive years of growth. The drop was concentrated at the graduate level, where enrollment fell 12%; undergraduate international students actually increased 2%. F-1 student visa issuances dropped 36% over the past year — a worse-than-expected figure first reported by the Chronicle of Higher Education — fueled by a three-week State Department moratorium on student visa interviews last spring, subsequent backlogs, and expanded social media vetting requirements. Among graduate programs specifically, a survey of some 200 U.S. schools found a 19% drop in new international master's students.</p>
+      <p style="margin:0 0 12px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#333333;line-height:1.85;">NAFSA: Association of International Educators projects that if declines continue at the current rate, the U.S. economy stands to lose $7 billion in revenue and more than 60,000 jobs — primarily in university towns and cities where international students spend on housing, food, and local services. Roughly 40% of Ph.D. students in STEM fields are foreign-born, and those students drive a significant share of university-based research. Virginia's higher education system alone lost millions in tuition and fee revenue from graduate program enrollment declines. Syracuse University's international freshman enrollment dropped from 12% of its class to just 5% in two years. At many private institutions, international students pay full tuition — often $60,000 to $70,000 per year — making each lost international admit a significant financial hit.</p>
+      <p style="margin:0 0 16px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#333333;line-height:1.85;">Surveys show that 85% of institutions identify restrictive visa policies as major obstacles to enrollment — up from 58% in 2024. Beyond visa hurdles, international students are sharing stories in group chats about SEVIS terminations, travel ban expansions covering 39 countries, a new $100,000 H-1B visa fee, and a proposed cap on international undergraduates at 15% of enrollment at top-tier schools. The perception that the U.S. is no longer welcoming is spreading through the networks that prospective students rely on, and Canada, the UK, and Australia are aggressively recruiting the talent the U.S. is pushing away.</p>
+
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0a1628;border-left:4px solid #c9963a;margin-bottom:16px;">
+        <tr>
+          <td style="padding:16px 18px;">
+            <p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">By the Numbers: International Enrollment</p>
+            <p style="margin:0 0 4px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#ffffff;line-height:1.7;"><strong style="color:#c9963a;">17%</strong> — Drop in new international student enrollment, fall 2025</p>
+            <p style="margin:0 0 4px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#ffffff;line-height:1.7;"><strong style="color:#c9963a;">36%</strong> — Decline in F-1 student visa issuances year-over-year</p>
+            <p style="margin:0 0 4px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#ffffff;line-height:1.7;"><strong style="color:#c9963a;">19%</strong> — Drop in new international master's students at surveyed schools</p>
+            <p style="margin:0 0 4px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#ffffff;line-height:1.7;"><strong style="color:#c9963a;">$7B</strong> — Projected economic loss if trends continue into fall 2026</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#ffffff;line-height:1.7;"><strong style="color:#c9963a;">85%</strong> — Institutions citing visa policy as a major enrollment obstacle (up from 58%)</p>
+          </td>
+        </tr>
+      </table>
+
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f2ede3;border-left:4px solid #0a1628;margin-bottom:16px;">
+        <tr>
+          <td style="padding:16px 18px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#0a1628;letter-spacing:2px;text-transform:uppercase;">DR. HURWITZ'S TAKE</p>
+            <p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:14px;color:#333333;font-style:italic;line-height:1.8;">This is the story that will reshape the financial model of American higher education over the next five years. International students — particularly at the graduate level — have subsidized tuition discounting and financial aid for domestic students at hundreds of universities. As that revenue disappears, institutions will face a stark choice: raise domestic tuition, cut programs, or both. For domestic applicants, this actually creates a set of structural advantages: colleges are more motivated than ever to fill seats with American students. A family willing to negotiate merit aid aggressively this spring will find many schools more flexible than prior years. This is the moment to have that conversation.</p>
+          </td>
+        </tr>
+      </table>
+
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:16px;">
+        <tr>
+          <td width="49%" valign="top" style="background-color:#f0faf5;border-top:3px solid #2a7a4f;padding:14px 16px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#2a7a4f;letter-spacing:1px;text-transform:uppercase;">For Domestic Students</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#333333;line-height:1.7;">Enrollment pressure creates merit aid leverage. Schools with revenue gaps are more likely to negotiate. Domestic applicants at selective institutions with heavy international attrition may see improved odds this cycle.</p>
+          </td>
+          <td width="2%">&nbsp;</td>
+          <td width="49%" valign="top" style="background-color:#fdf4f3;border-top:3px solid #c23b2a;padding:14px 16px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c23b2a;letter-spacing:1px;text-transform:uppercase;">Risks / Watch</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#333333;line-height:1.7;">Revenue shortfalls from lost international tuition will accelerate program cuts and faculty reductions. Graduate STEM programs — essential for research competitiveness — face the sharpest enrollment declines and the steepest long-term consequences.</p>
+          </td>
+        </tr>
+      </table>
+
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0a1628;margin-bottom:16px;">
+        <tr>
+          <td style="padding:16px 18px;">
+            <p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">✓ Action Checklist</p>
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#ffffff;line-height:1.6;">✓ Request updated merit aid packages before May 1 — many schools are more flexible than their initial offers reflect</p>
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#ffffff;line-height:1.6;">✓ Check fall 2026 enrollment projections at your target schools — those with heavy international attrition may have more domestic spots available</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#ffffff;line-height:1.6;">✓ For students interested in STEM graduate programs: consider that fewer international competitors in domestic applicant pools may expand opportunity</p>
+          </td>
+        </tr>
+      </table>
+
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0a1628;">
+        <tr>
+          <td style="padding:12px 18px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">Key Sources</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#aaaaaa;line-height:1.8;">
+              <a href="https://www.highereddive.com/news/international-enrollment-under-pressure-what-colleges-can-do/812258/" style="color:#c9963a;text-decoration:none;">Higher Ed Dive — International Enrollment Deep Dive</a> &nbsp;·&nbsp;
+              <a href="https://www.nafsa.org/about/about-nafsa/us-economy-could-suffer-7-billion-loss-precipitous-drop-international-students" style="color:#c9963a;text-decoration:none;">NAFSA — $7B Economic Impact Report</a> &nbsp;·&nbsp;
+              <a href="https://www.insidehighered.com/news/students/2026/01/15/fall-enrollment-increased-1-international-students-declined" style="color:#c9963a;text-decoration:none;">Inside Higher Ed — Fall 2025 Enrollment</a>
+            </p>
+          </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
+
+<!-- DIVIDER -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#faf8f4;">
+  <tr><td align="center" style="padding:10px 0;font-family:Georgia,'Times New Roman',serif;font-size:18px;color:#c9963a;">✦</td></tr>
+</table>
+
+<!-- ==================== STORY 5 ==================== -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#faf8f4;">
+  <tr>
+    <td style="padding:28px 28px 32px 28px;">
+
+      <p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">TOPIC 05 &nbsp;·&nbsp; Institutional</p>
+      <h2 style="margin:0 0 8px 0;font-family:Georgia,'Times New Roman',serif;font-size:22px;font-weight:bold;color:#0a1628;line-height:1.3;">Syracuse Cuts 93 Programs — The Academic Portfolio Reckoning Has Arrived</h2>
+      <p style="margin:0 0 14px 0;font-family:Georgia,'Times New Roman',serif;font-size:15px;font-style:italic;color:#555555;line-height:1.5;">A private university that isn't in financial crisis just cut one-fifth of its academic programs. Classics, ceramics, digital humanities, and Russian are among the casualties — a preview of structural forces reshaping curricula nationwide.</p>
+
+      <table cellpadding="0" cellspacing="0" border="0" style="margin-bottom:16px;">
+        <tr><td style="background-color:#c9963a;height:2px;width:50px;font-size:0;line-height:0;">&nbsp;</td></tr>
+      </table>
+
+      <p style="margin:0 0 12px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#333333;line-height:1.85;">On April 1, 2026, Syracuse University announced the "sunset" of 93 academic programs — roughly 20% of its full catalog of 460 — following a year-long academic portfolio review. The cuts include undergraduate majors in Classical Civilization, Classics, Digital Humanities, Fine Arts, German, Latino-Latin American Studies, Middle Eastern Studies, Modern Jewish Studies, Russian, and ceramics, as well as dozens of graduate programs and advanced certificates. Provost Lois Agnew was explicit: this was "not a cost-cutting exercise" and no faculty or staff positions were identified for elimination. The cuts were entirely demand-driven: 34% of Syracuse's programs account for 80% of student enrollment, while the remaining 66% serve just 20%.</p>
+      <p style="margin:0 0 12px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#333333;line-height:1.85;">Of the 93 programs being sunset, 55 had zero students enrolled. The 258 students currently enrolled in the affected programs — just 1.2% of Syracuse's 21,500-student body — will be allowed to complete their degrees through teach-out plans. Some programs will be "re-envisioned" or merged rather than fully eliminated. The humanities and fine arts bore the largest share of cuts. Syracuse's most popular majors — psychology, information science, economics, and sports management — were untouched. The review began after university leaders noted Syracuse offered roughly twice the average number of programs as peer institutions, with many having never produced a single graduate.</p>
+      <p style="margin:0 0 16px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#333333;line-height:1.85;">The faculty response was not uniformly supportive. The University Senate had passed resolutions in October 2025 and February 2026 demanding faculty involvement in any closures, arguing that shared governance required a vote. Administration treated the review as "purely administrative," and the faculty dispute remains unresolved. The move reflects a national trend: humanities degrees have fallen from 13% to 9% of all majors nationally between 2012 and 2022, and institutions ranging from the University of North Texas (70 programs cut amid a $45 million deficit) to Ohio State (8 majors cut, 20 merged) are rationalizing their portfolios. Separately, Syracuse's international freshman enrollment dropped from 12% to just 5% of its class in two years — a significant revenue signal driving its financial reorientation.</p>
+
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0a1628;border-left:4px solid #c9963a;margin-bottom:16px;">
+        <tr>
+          <td style="padding:16px 18px;">
+            <p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">Programs Lost at Syracuse (Partial List)</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#ffffff;line-height:1.8;">Classical Civilization · Classics · Digital Humanities · Fine Arts · German · Italian · Latino-Latin American Studies · Middle Eastern Studies · Modern Jewish Studies · Russian · Ceramics · Nutrition Science · New Media (M.S.) · eSports Certification · 9 programs in the Maxwell School · 7 programs in Engineering &amp; Computer Science</p>
+          </td>
+        </tr>
+      </table>
+
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f2ede3;border-left:4px solid #0a1628;margin-bottom:16px;">
+        <tr>
+          <td style="padding:16px 18px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#0a1628;letter-spacing:2px;text-transform:uppercase;">DR. HURWITZ'S TAKE</p>
+            <p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:14px;color:#333333;font-style:italic;line-height:1.8;">What makes the Syracuse story instructive is precisely that it didn't happen out of financial crisis — it happened by choice. When a financially stable institution voluntarily cuts one-fifth of its catalog because 34% of programs generate 80% of enrollment, it is signaling something profound about what American families are demanding from a university degree. The humanities are not dying from lack of interest in ideas — they're dying from lack of perceived return on investment. Families considering programs in the liberal arts or traditional humanities need to ask honest questions about program survival at their target schools. And students with interdisciplinary or unusual academic interests should seek schools where those programs are protected by endowment, not dependent on enrollment headcounts.</p>
+          </td>
+        </tr>
+      </table>
+
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:16px;">
+        <tr>
+          <td width="49%" valign="top" style="background-color:#f0faf5;border-top:3px solid #2a7a4f;padding:14px 16px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#2a7a4f;letter-spacing:1px;text-transform:uppercase;">For Students / Families</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#333333;line-height:1.7;">Schools are focusing resources on high-demand programs, which may improve quality in STEM, business, and professional fields. Demand-aligned programs get faculty investment, career support, and co-curricular resources.</p>
+          </td>
+          <td width="2%">&nbsp;</td>
+          <td width="49%" valign="top" style="background-color:#fdf4f3;border-top:3px solid #c23b2a;padding:14px 16px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c23b2a;letter-spacing:1px;text-transform:uppercase;">Risks / Watch</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#333333;line-height:1.7;">Students drawn to humanities, language, or interdisciplinary programs at Syracuse or peer schools may arrive to find their interest area has been "re-envisioned" into something unrecognizable. Verify program status directly before committing.</p>
+          </td>
+        </tr>
+      </table>
+
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0a1628;margin-bottom:16px;">
+        <tr>
+          <td style="padding:16px 18px;">
+            <p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">✓ Action Checklist</p>
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#ffffff;line-height:1.6;">✓ If your student's intended major is in the liberal arts, language, or humanities, confirm with each school that the specific program is fully active and not under review</p>
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#ffffff;line-height:1.6;">✓ Ask admissions offices: "Has your institution completed a program portfolio review in the last two years? Are there programs currently under review?" Do not assume the catalog you saw when applying reflects what's available in fall 2026</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#ffffff;line-height:1.6;">✓ For families weighing a large research university versus a liberal arts college: smaller, mission-driven LACs with endowment support often provide more program stability in the humanities than large universities with enrollment-driven portfolios</p>
+          </td>
+        </tr>
+      </table>
+
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0a1628;">
+        <tr>
+          <td style="padding:12px 18px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">Key Sources</p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#aaaaaa;line-height:1.8;">
+              <a href="https://www.highereddive.com/news/syracuse-university-to-eliminate-93-academic-programs/816525/" style="color:#c9963a;text-decoration:none;">Higher Ed Dive — Syracuse 93 Programs</a> &nbsp;·&nbsp;
+              <a href="https://news.syr.edu/academic-portfolio-review-update-2/" style="color:#c9963a;text-decoration:none;">Syracuse University — Official Announcement</a> &nbsp;·&nbsp;
+              <a href="https://dailyorange.com/2026/04/syracuse-university-sunset-93-programs-academic-portfolio-review/" style="color:#c9963a;text-decoration:none;">Daily Orange — Campus Coverage</a>
+            </p>
+          </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
+
+<!-- ==================== GUIDANCE COUNSELOR CORNER ==================== -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f2ede3;border-top:3px solid #c9963a;">
+  <tr>
+    <td style="padding:28px 28px;">
+      <p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">Guidance Counselor Corner</p>
+      <h3 style="margin:0 0 16px 0;font-family:Georgia,'Times New Roman',serif;font-size:18px;color:#0a1628;">For School Counselors and Independent Educational Consultants</h3>
+      <p style="margin:0 0 12px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#333333;line-height:1.85;"><strong>On the Harvard–DOJ lawsuit and federal higher ed litigation:</strong> Your students are watching this — and many are anxious. The most productive framing is this: courts continue to constrain the most aggressive federal actions, and no specific admission outcome has yet changed as a direct result. What is changing is campus culture, governance, and program investment at the schools most targeted by federal pressure. Help families distinguish between political noise and operational reality when making May 1 decisions.</p>
+      <p style="margin:0 0 12px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#333333;line-height:1.85;"><strong>On the admissions data mandate and changing holistic review:</strong> The injunction protects public universities in 17 states for now — but not indefinitely, and not all institutions. If you work with students interested in highly selective schools outside those states, it is worth monitoring how compliance pressures are reshaping review criteria. Encourage students to present their applications as human stories, not demographic profiles — the "whole person" argument has never mattered more as a counter to algorithmic scrutiny.</p>
+      <p style="margin:0 0 12px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#333333;line-height:1.85;"><strong>On the Syracuse program cuts and what they signal broadly:</strong> This is the story to bookmark for college list building conversations next fall. When counseling juniors, ask explicitly about their academic interests and then verify whether their target schools' catalogs in those areas are stable. Program survivability is now a legitimate list-building criterion alongside rankings, financial aid, and campus culture. Forward freely with attribution to parents, students, and colleagues.</p>
+    </td>
+  </tr>
+</table>
+
+<!-- ==================== FOR FAMILIES / ACTION GUIDE ==================== -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#0a1628;">
+  <tr>
+    <td style="padding:28px 28px;">
+      <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#c9963a;letter-spacing:2px;text-transform:uppercase;">Your Action Guide — Edition 2026-15</p>
+      <p style="margin:0 0 20px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#aaaaaa;">Dr. Hurwitz's Analysis · April 7–11, 2026</p>
+
+      <p style="margin:0 0 14px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#ffffff;line-height:1.7;"><strong style="color:#c9963a;">1. Act before May 1 — the leverage window closes fast.</strong> Enrollment shortfalls from international student declines and federal funding uncertainty are making colleges more negotiable on merit aid than they've been in years. If your student received an offer, call the financial aid office before May 1, reference competing offers, and ask for a review. The answer is often yes.</p>
+      <p style="margin:0 0 14px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#ffffff;line-height:1.7;"><strong style="color:#c9963a;">2. Verify every program your student intends to study.</strong> Before depositing anywhere, confirm the specific major or program is active, fully staffed, and not under review. This is now a required step — not optional due diligence.</p>
+      <p style="margin:0 0 14px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#ffffff;line-height:1.7;"><strong style="color:#c9963a;">3. Confirm financial aid package stability.</strong> Scholarships tied to identity-based programs or diversity initiatives may be under compliance review at schools that have reached federal settlements. Call financial aid. Get written confirmation of your student's specific aid package and its terms.</p>
+      <p style="margin:0 0 14px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#ffffff;line-height:1.7;"><strong style="color:#c9963a;">4. Understand your school's legal posture.</strong> There is a meaningful difference between schools that have settled with the administration (Columbia, Brown, Cornell) and those actively litigating (Harvard, Cal State). Each approach has implications for campus culture, program continuity, and governance that will shape your student's four-year experience.</p>
+      <p style="margin:0 0 14px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#ffffff;line-height:1.7;"><strong style="color:#c9963a;">5. For humanities or liberal arts students: prioritize endowment and mission alignment.</strong> Schools whose humanities programs are protected by deep endowment commitments and institutional mission are more stable than those dependent on enrollment numbers alone. Small liberal arts colleges often provide stronger long-term program security than large research universities.</p>
+      <p style="margin:0 0 20px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#ffffff;line-height:1.7;"><strong style="color:#c9963a;">6. Talk to your student — not just about where to go, but why.</strong> This is a historically unusual moment in American higher education. The values embedded in a student's college choice — academic freedom, campus culture, institutional integrity — matter beyond rankings. Help them articulate what they're choosing, not just where.</p>
+
+      <!-- Bottom Line -->
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#c9963a;">
+        <tr>
+          <td style="padding:18px 20px;">
+            <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;font-weight:bold;color:#0a1628;letter-spacing:2px;text-transform:uppercase;">Dr. Hurwitz's Bottom Line</p>
+            <p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:14px;color:#0a1628;line-height:1.8;font-style:italic;">This spring's decision landscape is more legally and financially complex than any I've seen in 20 years of college counseling. The good news: families who engage actively — verifying programs, negotiating aid, asking hard questions — will navigate it far better than those who accept initial offers at face value. The stakes are high, but so is your leverage. Use it.</p>
+          </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
+
+<!-- ==================== FOOTER CTA ==================== -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#c9963a;">
+  <tr>
+    <td align="center" style="padding:24px 28px;">
+      <p style="margin:0 0 8px 0;font-family:Georgia,'Times New Roman',serif;font-size:18px;font-weight:bold;color:#0a1628;">Know a family navigating college decisions?</p>
+      <p style="margin:0 0 14px 0;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#0a1628;">Forward this edition. Free subscriptions available at the link below.</p>
+      <a href="https://nhurwitz.kit.com/2303368ea2" style="background-color:#0a1628;color:#c9963a;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;text-decoration:none;padding:12px 28px;display:inline-block;letter-spacing:1px;">SUBSCRIBE FREE →</a>
+    </td>
+  </tr>
+</table>
+
+<!-- ==================== FOOTER ==================== -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#132040;">
+  <tr>
+    <td align="center" style="padding:20px 28px;">
+      <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#aaaaaa;">© 2026 Hurwitz Consulting · All Rights Reserved</p>
+      <p style="margin:0 0 6px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#aaaaaa;">
+        <a href="https://www.hurwitzadmissions.com" style="color:#c9963a;text-decoration:none;">www.hurwitzadmissions.com</a>
+        &nbsp;·&nbsp;
+        <a href="mailto:nathan@hurwitzadmissions.com" style="color:#c9963a;text-decoration:none;">nathan@hurwitzadmissions.com</a>
+        &nbsp;·&nbsp; (203) 613-9262
+      </p>
+      <p style="margin:0 0 10px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#666666;">Higher Ed Insider is published weekly during the academic year. Intelligence for families navigating college admissions.</p>
+      <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#666666;">
+        <a href="{{ unsubscribe_url }}" style="color:#aaaaaa;text-decoration:underline;">Unsubscribe</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
